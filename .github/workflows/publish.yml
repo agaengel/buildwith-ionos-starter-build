@@ -1,0 +1,28 @@
+name: Publish page
+
+on: [push]
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: yarn install & build
+      run: |
+        yarn install --frozen-lockfile
+        yarn build
+    - name: Deploy dist folder
+      uses: sebastianpopp/ftp-action@master
+      with:
+        host: ${{ secrets.FTP_HOST }}
+        user: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localDir: "dist"
+        remoteDir: "buildwith-ionos"
