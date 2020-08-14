@@ -9,7 +9,7 @@ jobs:
       matrix:
         node-version: [14.x]
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -18,8 +18,8 @@ jobs:
       run: |
         yarn install --frozen-lockfile
         yarn build
-    - name: Deploy dist folder
-      uses: sebastianpopp/ftp-action@master
+    - name: Publish dist folder
+      uses: sebastianpopp/ftp-action@v2
       with:
         host: ${{ secrets.FTP_HOST }}
         user: ${{ secrets.FTP_USER }}
