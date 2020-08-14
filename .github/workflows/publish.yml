@@ -19,7 +19,7 @@ jobs:
         yarn install --frozen-lockfile
         yarn build
     - name: Publish dist folder
-      uses: sebastianpopp/ftp-action@v2
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
         host: ${{ secrets.FTP_HOST }}
         user: ${{ secrets.FTP_USER }}
