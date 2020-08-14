@@ -1,0 +1,20 @@
+{
+  "menu": [
+    {
+      "name": "Welcome",
+      "link": "/"
+    },
+    {
+      "name": "Get Started",
+      "link": "/get-started/"
+    },
+    {
+      "name": "Disclaimer",
+      "link": "/disclaimer/"
+    },
+    {
+      "name": "Blog",
+      "link": "/blog/"
+    }
+  ]
+}

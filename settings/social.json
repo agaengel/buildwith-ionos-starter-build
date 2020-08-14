@@ -1,0 +1,16 @@
+{
+  "social": [
+    {
+      "icon": "facebook",
+      "link": "https://www.facebook.com/my.ionos/"
+    },
+    {
+      "icon": "twitter",
+      "link": "https://twitter.com/ionos_com"
+    },
+    {
+      "icon": "youtube",
+      "link": "https://www.youtube.com/user/1and1"
+    }
+  ]
+}
