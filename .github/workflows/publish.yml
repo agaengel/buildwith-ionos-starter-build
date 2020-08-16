@@ -23,7 +23,7 @@ jobs:
     - name: Publish dist folder
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftps://home160254503.1and1-data.host:21/buildwith-ionos
+        ftp-server: sftp://home160254503.1and1-data.host/buildwith-ionos
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: "dist"
