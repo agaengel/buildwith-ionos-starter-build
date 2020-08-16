@@ -21,10 +21,9 @@ jobs:
         ls -la
         echo ${{ secrets.FTP_HOST }} ${{ secrets.FTP_USER }}
     - name: Publish dist folder
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        host: ${{ secrets.FTP_HOST }}
-        user: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "dist"
-        remoteDir: "buildwith-ionos"
+        ftp-server: ftps://home160254503.1and1-data.host:21/buildwith-ionos
+        ftp-username: ${{ secrets.FTP_USER }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: "dist"
