@@ -17,7 +17,8 @@ jobs:
     - name: yarn install & build
       run: |
         yarn install --frozen-lockfile
-        yarn build --verbose
+        yarn build
+        ls -la
         echo ${{ secrets.FTP_HOST }} ${{ secrets.FTP_USER }}
     - name: Publish dist folder
       uses: sebastianpopp/ftp-action@releases/v2
