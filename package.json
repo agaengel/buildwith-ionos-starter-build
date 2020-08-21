@@ -19,6 +19,7 @@
     "sass-loader": "^8.0.2"
   },
   "devDependencies": {
+    "gridsome-plugin-htaccess": "^0.2.1",
     "gridsome-plugin-tailwindcss": "^3.0.1"
   }
 }

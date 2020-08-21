@@ -44,6 +44,16 @@ module.exports = {
         },
       },
     },
+    {
+      use: "gridsome-plugin-htaccess",
+      options: {
+        contentSecurityPolicy: {
+          textCompression: ["text/html"],
+          "default-src": ["self"],
+          forceHttps: true,
+        },
+      },
+    },
   ],
   templates: {
     Blog: [
@@ -66,6 +76,7 @@ module.exports = {
     ],
   },
   chainWebpack: (config) => {
+    config.resolve.alias.set("@images", "@/assets/images");
     config.resolve.alias.set("@modules", "@/resources/js/modules");
     config.resolve.alias.set("@utilities", "@/resources/js/utilities");
   },
