@@ -7,13 +7,22 @@ h6 {
   @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
 }
 
+b, strong {
+  @apply font-bold;
+}
+
 .page-title {
-  @apply text-5xl;
+  @apply text-5xl text-gray-800;
+}
+
+.sub-title {
+  @apply text-3xl text-gray-800;
 }
 
 .content {
   p {
     @apply mb-8;
+    @apply text-2xl font-light text-gray-800;
 
     &:first-child {
       @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
@@ -21,6 +30,40 @@ h6 {
       @screen md {
         @apply text-3xl;
       }
+    }
+  }
+}
+
+.big-text {
+  font-size: 5vw;
+}
+
+.image-box-shadow {
+  box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.50);
+}
+
+.linear-wipe {
+  text-align: left;
+
+  background: linear-gradient(
+    to right,
+    #fff 20%,
+    #003d8f 40%,
+    #003d8f 60%,
+    #fff 80%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 5s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
     }
   }
 }
