@@ -1,10 +1,10 @@
 <template>
   <Layout>
     <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title">Get started in seconds</h1>
+      <h1 class="text-5xl">Get started in seconds</h1>
       <div class="content">
         <p>Step-by-Step Guide</p>
-        <h2 class="sub-title">Getting started with Buildwith IONOS</h2>
+        <h2 class="text-3xl">Getting started with Buildwith IONOS</h2>
         <p>
           In this tutorial, we will show you how easy it is to launch your site
           with Buildwith IONOS.
@@ -13,21 +13,21 @@
           <a href="https://www.ionos.com/">sign up</a> a contract.
         </p>
         <p />
-        <h2 class="sub-title">Step 1: Start your first project</h2>
+        <h2 class="text-3xl">Step 1: Start your first project</h2>
         <g-image :src="require(`!!assets-loader!@images/setup-step1.png`)" />
         <p>
           Creating a new site with Buildwith IONOS is simple. Once you've logged
           in for the first time, click the <b>Start first project</b> button
           shown above.
         </p>
-        <h2 class="sub-title">Step 2: Connect to GitHub</h2>
+        <h2 class="text-3xl">Step 2: Connect to GitHub</h2>
         <p>Clicking <b>Start first project</b> brings you to this screen:</p>
         <g-image :src="require(`!!assets-loader!@images/setup-step2.png`)" />
         <p>
           Click the <b>Connect to GitHub</b> button as illustrated in the
           screenshot above.
         </p>
-        <h2 class="sub-title">Step 3: Authorize Buildwith IONOS</h2>
+        <h2 class="text-3xl">Step 3: Authorize Buildwith IONOS</h2>
         <g-image :src="require(`!!assets-loader!@images/setup-step3.png`)" />
         <p>
           It's time to allow Buildwith IONOS and GitHub to talk to each other.
@@ -35,7 +35,7 @@
           says in the image above, Buildwith IONOS doesn't store your GitHub
           access token on our servers.
         </p>
-        <h2 class="sub-title">Step 4: Configure your project</h2>
+        <h2 class="text-3xl">Step 4: Configure your project</h2>
         <g-image :src="require(`!!assets-loader!@images/setup-step4.png`)" />
         <p>
           Take a starter to get familiar with Buildwith IONOS and create your
@@ -45,7 +45,7 @@
           Click on <b>Continue</b> to initialize, build &amp; ship your first
           web project on IONOS.
         </p>
-        <h2 class="sub-title">
+        <h2 class="text-3xl">
           Step 5: Initialize, Build &amp; Ship your first project to IONOS
         </h2>
         <g-image :src="require(`!!assets-loader!@images/setup-step5-1.png`)" />
@@ -68,7 +68,7 @@
           thumbnail screenshot as soon as your project is successful shipped to
           IONOS.
         </p>
-        <h2 class="sub-title">Step 6: All done</h2>
+        <h2 class="text-3xl">Step 6: All done</h2>
         <p>
           Once the build completes, your site is live! Head to the generated URL
           of your newly published site:

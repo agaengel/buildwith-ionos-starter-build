@@ -1,17 +1,28 @@
 <template>
   <Layout>
     <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title">Welcome to Buildwith IONOS</h1>
+      <h1 class="text-5xl">Welcome to Buildwith IONOS</h1>
       <div class="content">
         <p>
           Just
-          <a href="https://git-scm.com/docs/git-push">git push</a> to deploy to
+          <a href="https://git-scm.com/docs/git-push">git push</a> to ship to
           <a href="https://www.ionos.com/">IONOS</a>.
         </p>
+        <h2 class="text-3xl">Easy setup</h2>
+        <h1>DEVELOP.</h1>
+        <h1>BUILD.</h1>
+        <h1>SHIP to IONOS.</h1>
+        <a
+          class="buildwith"
+          href="https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/gatsby-starter-default"
+          rel="nofollow"
+        >
+          /// SHIP to IONOS ///
+        </a>
 
-        <button role="button" aria-label="Tag" class="action-button">
-          Deploy
-        </button>
+
+
+
 
         <h2 class="text-3xl">Features</h2>
         <ul class="mb-12 list-disc pl-4">

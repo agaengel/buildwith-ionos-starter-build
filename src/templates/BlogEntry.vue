@@ -3,7 +3,7 @@
     <section id="container-centre" class="column centre flex-1">
       <div class="post-header mb-12 md:mb-20">
         <h1
-          class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl"
+          class="text-5xl text-3xl md:text-center md:text-5xl lg:text-6xl"
           v-html="$page.blog.title"
         ></h1>
         <div class="text-sm md:text-base text-gray-600 flex justify-center">
