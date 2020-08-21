@@ -9,12 +9,12 @@
       "link": "/get-started/"
     },
     {
-      "name": "Disclaimer",
-      "link": "/disclaimer/"
-    },
-    {
       "name": "Blog",
       "link": "/blog/"
+    },
+    {
+      "name": "Disclaimer",
+      "link": "/disclaimer/"
     }
   ]
 }
