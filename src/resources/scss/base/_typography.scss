@@ -1,14 +1,10 @@
-.body {
-  @apply text-gray-400;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
+  @apply font-bold leading-tight mt-0 mb-6;
 }
 
 b,
@@ -22,7 +18,7 @@ strong {
     @apply text-2xl font-light;
 
     &:first-child {
-      @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+      @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600 uppercase;
 
       @screen md {
         @apply text-3xl;
