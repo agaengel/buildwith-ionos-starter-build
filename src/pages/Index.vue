@@ -19,7 +19,10 @@
             >
               Just
               <a href="https://git-scm.com/docs/git-push">git push</a> to ship
-              to <a href="https://www.ionos.com/">IONOS</a>
+              to
+              <a href="https://www.ionos.com/" rel="nofollow" target="_blank"
+                >IONOS</a
+              >
             </h1>
             <p
               class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle"
@@ -49,11 +52,11 @@
         </div>
 
         <!-- step-by-step -->
-        <div
-          class="lg:text-center text-xl text-gray-600 mx-auto pb-12 px-4 sm:px-6 lg:px-8"
+        <h2
+          class="lg:text-center text-2xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 uppercase"
         >
-          Lorem ipsum ... get started
-        </div>
+          Get your next web project live in seconds
+        </h2>
 
         <div class="flex flex-wrap justify-center pb-12">
           <div
@@ -101,6 +104,7 @@
               src="@images/ship-to-IONOS.png"
               alt="Ship to IONOS"
             />
+            <!-- src="https://images.unsplash.com/photo-1592063648619-7e520034f357" -->
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">
                 3. Ship to IONOS
@@ -113,14 +117,163 @@
           </div>
         </div>
 
-        <!-- framework listing -->
-        <div
-          class="lg:text-center text-xl text-gray-600 mx-auto pb-12 px-4 sm:px-6 lg:px-8"
+        <!-- features -->
+        <h2
+          class="lg:text-center text-2xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 uppercase"
         >
-          Buildwith IONOS supports any modern framework
+          Hit the ground running
+        </h2>
+        <p class="text-xl text-gray-600 mx-auto max-w-4xl pb-12">
+          Setting up your next project with Buildwith IONOS brings up essential
+          features just from the beginning.
+        </p>
+        <div class="px-4 pb-12 mx-4">
+          <ul class="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+            <li>
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                  >
+                    <svg
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                    Buildwith IONOS makes it simple
+                  </h4>
+                  <p class="mt-2 text-base leading-6 text-gray-500">
+                    Publish modern web projects right from your git repository.
+                    Use your favorite framework. You don't need to be an expert
+                    to create and ship a feature-rich web project with IONOS.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="mt-10 md:mt-0">
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                  >
+                    <svg
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                    Automate your work
+                  </h4>
+                  <p class="mt-2 text-base leading-6 text-gray-500">
+                    Automate your next web project from the beginning. Don't
+                    repeat yourself and rely on proven build steps and produce
+                    snapshots in short cycles with each git push. Things will go
+                    wrong. Get aware of failures immediately.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="mt-10 md:mt-0">
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                  >
+                    <svg
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                    Preview your changes
+                  </h4>
+                  <p class="mt-2 text-base leading-6 text-gray-500">
+                    Generate a full preview of your web project with every git
+                    push. Apply atomic switch to live.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="mt-10 md:mt-0">
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                  >
+                    <svg
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                    Ship directly to the edge
+                  </h4>
+                  <p class="mt-2 text-base leading-6 text-gray-500">
+                    Always fast. Always online. Always a hit.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
 
-        <div class="flex flex-grow-0 flex-wrap justify-center">
+        <!-- support listing -->
+        <h2
+          class="lg:text-center text-2xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 uppercase"
+        >
+          Works with 30+
+          <a href="https://jamstack.org/" rel="nofollow" target="_blank"
+            >Jamstack</a
+          >
+          frameworks
+        </h2>
+
+        <div class="flex flex-grow-0 flex-wrap justify-center pb-12">
           <a href="http://reactjs.org/" rel="nofollow" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
@@ -230,9 +383,18 @@
               </svg>
             </div>
           </a>
-          <div class="flex items-stretch box-content h-16 w-16 m-2 p-4 bg-black rounded-lg shadow-lg">
-            <b class="w-full self-center text-white text-center text-2xl">More</b>
+          <div
+            class="flex items-stretch box-content h-16 w-16 m-2 p-4 bg-black rounded-lg shadow-lg"
+          >
+            <b class="w-full self-center text-white text-center text-2xl"
+              >More</b
+            >
           </div>
+        </div>
+        <div
+          class="lg:text-center text-xl text-gray-600 mx-auto pb-12 px-4 sm:px-6 lg:px-8"
+        >
+          Comming soon support for ...
         </div>
       </div>
     </section>
