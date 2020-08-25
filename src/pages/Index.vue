@@ -365,7 +365,7 @@
         </div>
 
         <h2
-          class="lg:text-center text-2xl mx-auto py-12 px-4 sm:px-6 lg:px-8 uppercase"
+          class="lg:text-center text-2xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 uppercase"
         >
           (Coming soon) LAMP stack support
         </h2>
