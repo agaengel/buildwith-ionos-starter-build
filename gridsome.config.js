@@ -1,6 +1,5 @@
 module.exports = {
   siteName: "Buildwith IONOS",
-  icon: './src/favicon.ico',
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
