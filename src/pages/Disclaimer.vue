@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
+    <section class="container mx-auto">
       <h1 class="text-5xl">Disclaimer</h1>
       <div class="content">
         <p>

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
+    <section class="container mx-auto">
       <h1
         class="text-5xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl"
       >
@@ -54,6 +54,14 @@
               </div>
             </article>
           </div>
+        </div>
+
+        <div class="w-2/12 px-4">
+          <img
+            src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+            alt="..."
+            class="shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+          />
         </div>
       </div>
     </section>

@@ -13,5 +13,5 @@
 }
 
 .inner {
-  @apply w-full max-w-6xl ml-auto mr-auto px-6;
+  @apply flex flex-col w-full justify-center px-6;
 }

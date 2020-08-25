@@ -29,7 +29,7 @@
     transition: 0.25s all ease-out;
 
     &:focus {
-      @apply border-pink-500 outline-none;
+      @apply border-pink-500;
     }
   }
 

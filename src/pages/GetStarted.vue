@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
+    <section class="container mx-auto">
       <h1 class="text-5xl">Get started in seconds</h1>
       <div class="content">
         <p>Step-by-Step Guide</p>

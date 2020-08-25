@@ -7,7 +7,7 @@
     >
       <HeaderPartial />
 
-      <main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20">
+      <main id="main" class="main justify-center flex flex-1 flex-col py-10 lg:py-20">
         <slot />
       </main>
 
