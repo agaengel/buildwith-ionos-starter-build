@@ -3,6 +3,9 @@ module.exports = {
   prefix: "",
   important: false,
   separator: ":",
+  variants: {
+    outline: ["focus"],
+  },
   theme: {
     colors: {
       transparent: "transparent",

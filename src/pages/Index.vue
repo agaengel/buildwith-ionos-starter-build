@@ -37,7 +37,7 @@
               target="_blank"
             >
               <button
-                class="mx-auto lg:mx-0 bg-black text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+                class="mx-auto lg:mx-0 bg-black text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none"
               >
                 ➤ Ship to IONOS
               </button>
