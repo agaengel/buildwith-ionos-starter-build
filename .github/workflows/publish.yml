@@ -26,5 +26,5 @@ jobs:
         ftp-server: sftp://home160254503.1and1-data.host/buildwith-ionos
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: "dist"
+        local-dir: "dist/"
         git-ftp-args: --insecure
