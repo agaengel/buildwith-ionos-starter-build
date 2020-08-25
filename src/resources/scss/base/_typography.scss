@@ -6,13 +6,13 @@ strong {
 .content {
   p {
     @apply mb-8;
-    @apply text-2xl font-light;
+    @apply text-xl font-light;
 
     &:first-child {
-      @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600 uppercase;
+      @apply border-b border-gray-200 pb-10 mb-10 font-light leading-snug text-gray-600 uppercase;
 
       @screen md {
-        @apply text-3xl;
+        @apply text-2xl;
       }
     }
   }
