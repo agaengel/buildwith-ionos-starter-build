@@ -16,7 +16,6 @@
               <!-- card view -->
               <div class="bg-white overflow-hidden rounded-lg shadow-lg flex-1">
                 <!-- card header -->
-                <div>{{ entry.node.id }}</div>
                 <g-link
                   class="block relative overflow-hidden"
                   :to="entry.node.path"
