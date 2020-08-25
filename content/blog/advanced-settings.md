@@ -1,12 +1,12 @@
 ---
-title: Gridsome
-tags: tag1, tag2
-category: Static Site Generator
-excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere!
-created: 2020-08-13
-image: ./images/gridsome.png
-image_caption: Photo by Josh Spires on Unsplash
-author: author1
+title: Advanced Settings
+tags: buildwith
+category: Buildwith IONOS
+excerpt: Using advanced settings in Buildwith IONOS
+created: 2020-08-25
+image: https://images.unsplash.com/photo-1506704888326-3b8834edb40a
+image_caption: Photo by Denisse Leon on Unsplash
+author: markus
 ---
 
 ## Ossa narrat sortita fecerat sit conataque

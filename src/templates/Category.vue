@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
+    <section class="container mx-auto">
       <h1
         class="text-5xl text-purple-900 text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl"
       >

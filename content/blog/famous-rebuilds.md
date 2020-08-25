@@ -1,12 +1,12 @@
 ---
-title: GatsbyJS
-tags: tag1, tag2, tag3
-category: Static Site Generator
-excerpt: Qua opes egentes cur, et trunca carpserat tulitquemuneris foedumque patriumque pisces vices!
-created: 2020-08-13
-image: ./images/gatsbyjs.webp
-image_caption: Photo by Luasz Szmigiel on Unsplash
-author: author1
+title: Famous Rebuilds
+tags: buildwith website
+category: Buildwith IONOS
+excerpt: Famous rebuilds shipped to IONOS
+created: 2020-08-30
+image: https://images.unsplash.com/photo-1516880711640-ef7db81be3e1
+image_caption: Photo by Randy Fath on Unsplash
+author: markus
 ---
 
 ## Loci ego fuit

@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
-      <div class="post-header mb-12 md:mb-20">
+    <section class="container mx-auto">
+      <div class="">
         <h1
           class="text-5xl text-3xl md:text-center md:text-5xl lg:text-6xl"
           v-html="$page.blog.title"
@@ -27,6 +27,8 @@
           </figcaption>
         </figure>
       </div>
+
+      
       <div class="content post md:px-16">
         <p v-html="$page.blog.excerpt"></p>
         <div v-html="$page.blog.content"></div>
@@ -49,7 +51,7 @@
     blog(id: $id) {
       title
       path
-      image(width:1200)
+      image
       image_caption
       excerpt
       content
