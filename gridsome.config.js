@@ -1,5 +1,6 @@
 module.exports = {
   siteName: "Buildwith IONOS",
+  icon: './src/favicon.ico',
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
@@ -50,8 +51,8 @@ module.exports = {
         contentSecurityPolicy: {
           textCompression: ["text/html"],
           "default-src": ["self"],
-          forceHttps: true,
         },
+        forceHttps: true,
       },
     },
   ],
