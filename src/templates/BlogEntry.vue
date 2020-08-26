@@ -28,8 +28,8 @@
         </figure>
       </div>
 
-      
-      <div class="content post md:px-16">
+
+      <div class="content pt-16 md:px-16">
         <p v-html="$page.blog.excerpt"></p>
         <div v-html="$page.blog.content"></div>
         <ul class="flex pt-8 border-t border-gray-100">
