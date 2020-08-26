@@ -48,10 +48,20 @@ module.exports = {
       use: "gridsome-plugin-htaccess",
       options: {
         contentSecurityPolicy: {
-          textCompression: ["text/html"],
           "default-src": ["self"],
+          "img-src": ["self"],
+          "script-src": ["self"],
         },
+        disableServerSignature: true,
         forceHttps: true,
+        pingable: false,
+        preventScriptInjection: true,
+        textCompression: [
+          "text/html",
+          "application/javascript",
+          "text/css",
+          "image/png",
+        ],
       },
     },
   ],
