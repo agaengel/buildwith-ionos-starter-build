@@ -1,7 +1,8 @@
 <template>
   <Layout>
     <section class="container mx-auto">
-      <div class="">
+      <!-- header -->
+      <div class="pb-12">
         <h1
           class="text-5xl text-3xl md:text-center md:text-5xl lg:text-6xl"
           v-html="$page.blog.title"
@@ -20,28 +21,32 @@
             }}</g-link>
           </p>
         </div>
-        <figure class="mt-10 md:mt-20">
-          <g-image :alt="$page.blog.image_caption" :src="$page.blog.image" />
+        <figure class="mx-10 mt-10">
+          <g-image
+            class="object-cover h-64 w-full"
+            :src="$page.blog.image"
+            :alt="$page.blog.image_caption"
+          />
           <figcaption class="text-center text-sm italic text-gray-600 mt-4">
             {{ $page.blog.image_caption }}
           </figcaption>
         </figure>
       </div>
-
-
-      <div class="content pt-16 md:px-16">
+      <!-- content -->
+      <div class="content pb-12 px-16">
         <p v-html="$page.blog.excerpt"></p>
         <div v-html="$page.blog.content"></div>
-        <ul class="flex pt-8 border-t border-gray-100">
-          <li class="mr-2" v-for="tag in $page.blog.tags" :key="tag.id">
-            <g-link
-              :to="tag.path"
-              class="inline-block border border-pink-300 px-4 py-2 text-pink-500 text-xs font-semibold rounded hover:text-white hover:bg-pink-500 hover:border-pink-500"
-              >{{ tag.title }}</g-link
-            >
-          </li>
-        </ul>
       </div>
+      <!-- tag cloud -->
+      <ul class="flex px-16 border-t border-gray-100">
+        <li class="mr-2" v-for="tag in $page.blog.tags" :key="tag.id">
+          <g-link
+            :to="tag.path"
+            class="inline-block border border-pink-300 px-4 py-2 text-pink-500 text-xs font-semibold rounded hover:text-white hover:bg-pink-500 hover:border-pink-500"
+            >{{ tag.title }}</g-link
+          >
+        </li>
+      </ul>
     </section>
   </Layout>
 </template>
