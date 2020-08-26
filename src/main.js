@@ -6,10 +6,10 @@ import DefaultLayout from "~/layouts/Default.vue";
 import "~/resources/scss/main.scss";
 
 export default function(Vue, { router, head, isClient }) {
-  // Set default layout as a global component
+  // set default layout as a global component
   Vue.component("Layout", DefaultLayout);
-  // Add attributes to HTML tag
+  // add attributes to HTML tag
   head.htmlAttrs = { lang: "en", class: "min-h-full antialiased" };
-  // Add attributes to BODY tag
-  head.bodyAttrs = { class: "text-purple-900 leading-normal text-lg" };
+  // add attributes to BODY tag
+  head.bodyAttrs = { class: "text-gray-900 leading-normal text-lg" };
 }
