@@ -47,7 +47,10 @@ module.exports = {
     {
       use: "gridsome-plugin-htaccess",
       options: {
-
+        // contentSecurityPolicy: {
+        //   "default-src": ["self"],
+        //   "script-src": ["self"],
+        // },
         disableServerSignature: true,
         forceHttps: true,
         pingable: false,
