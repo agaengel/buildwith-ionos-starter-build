@@ -49,7 +49,6 @@ module.exports = {
       options: {
         contentSecurityPolicy: {
           "default-src": ["self"],
-          "img-src": ["self"],
           "script-src": ["self"],
         },
         disableServerSignature: true,
