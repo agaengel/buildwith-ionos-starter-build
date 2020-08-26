@@ -14,7 +14,11 @@
         </p>
         <p />
         <h2 class="text-3xl">Step 1: Start your first project</h2>
-        <g-image :src="require(`!!assets-loader!@images/setup-step1.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step1.png"
+          alt="Dashboard view"
+        />
         <p>
           Creating a new site with Buildwith IONOS is simple. Once you've logged
           in for the first time, click the <b>Start first project</b> button
@@ -22,13 +26,21 @@
         </p>
         <h2 class="text-3xl">Step 2: Connect to GitHub</h2>
         <p>Clicking <b>Start first project</b> brings you to this screen:</p>
-        <g-image :src="require(`!!assets-loader!@images/setup-step2.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step2.png"
+          alt="Connect to GitHub view"
+        />
         <p>
           Click the <b>Connect to GitHub</b> button as illustrated in the
           screenshot above.
         </p>
         <h2 class="text-3xl">Step 3: Authorize Buildwith IONOS</h2>
-        <g-image :src="require(`!!assets-loader!@images/setup-step3.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step3.png"
+          alt="Authorize Buildwith IONOS view"
+        />
         <p>
           It's time to allow Buildwith IONOS and GitHub to talk to each other.
           Clicking the Authorize Application button will do just that. Like it
@@ -36,7 +48,11 @@
           access token on our servers.
         </p>
         <h2 class="text-3xl">Step 4: Configure your project</h2>
-        <g-image :src="require(`!!assets-loader!@images/setup-step4.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step4.png"
+          alt="Configure your project view"
+        />
         <p>
           Take a starter to get familiar with Buildwith IONOS and create your
           first live web project in seconds. For the first roundtrip we skip
@@ -48,18 +64,30 @@
         <h2 class="text-3xl">
           Step 5: Initialize, Build &amp; Ship your first project to IONOS
         </h2>
-        <g-image :src="require(`!!assets-loader!@images/setup-step5-1.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step5-1.png"
+          alt="Initialize project view"
+        />
         <p>
           Now, we are starting to setup everything properly for you. Depending
           on the project size this step lasts for longer.
         </p>
-        <g-image :src="require(`!!assets-loader!@images/setup-step5-2.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step5-2.png"
+          alt="Congrats view"
+        />
         <p>
           Hopefully, everything goes well all the time, you will see a success
           message. Click on <b>View project details</b> to get a detail summary
           of your project.
         </p>
-        <g-image :src="require(`!!assets-loader!@images/setup-step5-3.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step5-3.png"
+          alt="Project details view"
+        />
         <p>
           Now, your workflow with
           <a href="https://github.com/features/actions">GitHub Actions</a>
@@ -73,7 +101,11 @@
           Once the build completes, your site is live! Head to the generated URL
           of your newly published site:
         </p>
-        <g-image :src="require(`!!assets-loader!@images/setup-step6.png`)" />
+        <g-image
+          class="w-full"
+          src="@images/setup-step6.png"
+          alt="Resulting web project"
+        />
         <p>
           Probably not the most outstanding website, but wasn't that easy?
           Taking it a step further you should connect
