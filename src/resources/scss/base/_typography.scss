@@ -3,17 +3,20 @@ strong {
   @apply font-bold;
 }
 
-.content {
+.subheader {
+  h1 {
+    @apply text-2xl font-medium pb-4 mx-4;
+
+    @screen md {
+      @apply text-5xl mx-8;
+    }
+  }
+
   p {
-    @apply mb-8;
-    @apply text-base;
+    @apply text-base text-gray-600 font-light uppercase border-b border-gray-600 pb-12 mb-12 mx-4;
 
-    &:first-child {
-      @apply border-b border-gray-600 text-gray-600 pb-10 font-light uppercase;
-
-      @screen md {
-        @apply text-2xl;
-      }
+    @screen md {
+      @apply text-xl mx-8;
     }
   }
 }

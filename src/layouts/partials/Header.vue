@@ -8,7 +8,7 @@
       aria-label="Back to home"
       >{{ $static.metadata.siteName }}</g-link
     >
-    <nav id="nav" class="nav hidden md:flex">
+    <nav id="nav" class="hidden md:flex">
       <ul
         class="flex flex-col md:flex-row items-center list-reset text-base"
       >

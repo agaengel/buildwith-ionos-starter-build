@@ -10,6 +10,4 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
   // add attributes to HTML tag
   head.htmlAttrs = { lang: "en", class: "min-h-full antialiased" };
-  // add attributes to BODY tag
-  head.bodyAttrs = { class: "text-gray-900 leading-normal text-lg" };
 }
