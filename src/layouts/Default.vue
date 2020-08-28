@@ -1,16 +1,12 @@
 <template>
   <div>
-    <a class="visually-hidden" href="#main">Skip to content</a>
     <div class="pb-16 md:pb-0 flex flex-col relative min-h-screen">
       <Header />
-
       <main
-        id="main"
         class="main justify-center flex flex-1 flex-col py-10 lg:py-20"
       >
         <slot />
       </main>
-
       <Footer />
     </div>
     <ClientOnly>

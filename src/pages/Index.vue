@@ -271,6 +271,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -284,6 +286,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -297,6 +301,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -310,6 +316,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -344,6 +352,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -357,6 +367,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -370,6 +382,8 @@
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
                 viewBox="0 0 24 24"
+                role="img"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path

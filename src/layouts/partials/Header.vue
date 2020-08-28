@@ -1,21 +1,19 @@
 <template>
   <header
-    id="header"
-    class="header bg-blue-600 flex flex-col md:flex-row md:justify-between items-center p-4 md:p-6"
-    role="banner"
+    class="flex flex-col md:flex-row md:justify-between items-center bg-blue-600 p-4 md:p-6"
   >
     <g-link
-      class="company-logo-link block text-white font-bold text-2xl md:text-3xl hover:text-pink-500"
+      class="text-2xl md:text-3xl text-white font-bold block hover:text-pink-500"
       to="/"
       aria-label="Back to home"
       >{{ $static.metadata.siteName }}</g-link
     >
     <nav id="nav" class="nav hidden md:flex">
       <ul
-        class="menu flex flex-col md:flex-row items-center list-reset text-base"
+        class="flex flex-col md:flex-row items-center list-reset text-base"
       >
         <li
-          class="level-1 mb-4 md:mr-4 md:mb-0"
+          class="text-base md:text-xl mb-4 md:mr-4 md:mb-0"
           v-for="element in $static.metadata.menu"
           :key="element.name"
         >
@@ -31,16 +29,6 @@
     </nav>
   </header>
 </template>
-
-<script>
-export default {
-  methods: {
-    socialIcon(element) {
-      return `/icons.svg#icon-${element.icon}`;
-    },
-  },
-};
-</script>
 
 <static-query>
 query {
