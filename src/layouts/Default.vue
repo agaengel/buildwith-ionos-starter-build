@@ -1,17 +1,17 @@
 <template>
   <div>
     <a class="visually-hidden" href="#main">Skip to content</a>
-    <div
-      id="wrapper"
-      class="wrapper pb-16 md:pb-0 flex flex-col relative min-h-screen"
-    >
-      <HeaderPartial />
+    <div class="pb-16 md:pb-0 flex flex-col relative min-h-screen">
+      <Header />
 
-      <main id="main" class="main justify-center flex flex-1 flex-col py-10 lg:py-20">
+      <main
+        id="main"
+        class="main justify-center flex flex-1 flex-col py-10 lg:py-20"
+      >
         <slot />
       </main>
 
-      <FooterPartial />
+      <Footer />
     </div>
     <ClientOnly>
       <ResponsiveNav />
@@ -19,23 +19,15 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <script>
-import HeaderPartial from "~/layouts/partials/Header.vue";
-import FooterPartial from "~/layouts/partials/Footer.vue";
+import Header from "~/layouts/partials/Header.vue";
+import Footer from "~/layouts/partials/Footer.vue";
 import ResponsiveNav from "~/layouts/partials/ResponsiveNav.vue";
 
 export default {
   components: {
-    HeaderPartial,
-    FooterPartial,
+    Header,
+    Footer,
     ResponsiveNav,
   },
 };

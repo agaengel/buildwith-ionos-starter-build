@@ -6,10 +6,10 @@ strong {
 .content {
   p {
     @apply mb-8;
-    @apply text-xl font-light;
+    @apply text-base;
 
     &:first-child {
-      @apply border-b border-gray-200 pb-10 mb-10 font-light leading-snug text-gray-600 uppercase;
+      @apply border-b border-gray-600 text-gray-600 pb-10 font-light uppercase;
 
       @screen md {
         @apply text-2xl;
