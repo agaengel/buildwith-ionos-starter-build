@@ -10,4 +10,9 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
   // add attributes to HTML tag
   head.htmlAttrs = { lang: "en", class: "min-h-full antialiased" };
+  // add meta tags
+  head.meta.push({
+    name: "robots",
+    content: "noindex, nofollow",
+  });
 }
