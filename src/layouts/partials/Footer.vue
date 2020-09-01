@@ -6,7 +6,7 @@
       <div class="text-base text-center md:text-left md:text-xl pb-8 md:pb-0">
         © {{ new Date().getFullYear() }} - Powered by
         <a
-          href="https://www.buildwith.ionos.com"
+          href="https://buildwith.ionos.com"
           rel="nofollow"
           target="_blank"
         >
