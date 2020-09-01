@@ -5,18 +5,46 @@ strong {
 
 .subheader {
   h1 {
-    @apply text-2xl font-medium pb-4 mx-4;
+    @apply text-2xl font-medium pb-4 mx-8;
 
     @screen md {
-      @apply text-5xl mx-8;
+      @apply text-5xl;
     }
   }
 
   p {
-    @apply text-base text-gray-600 font-light uppercase border-b border-gray-600 pb-12 mb-12 mx-4;
+    @apply text-base text-gray-600 font-light uppercase border-b border-gray-600 pb-4 mb-8 mx-8;
 
     @screen md {
-      @apply text-xl mx-8;
+      @apply text-xl pb-8 mb-24;
+    }
+  }
+}
+
+.content {
+  @apply text-gray-800 mx-8;
+
+  h2 {
+    @apply text-xl font-normal text-center uppercase pb-4;
+
+    @screen md {
+      @apply text-3xl pb-8;
+    }
+  }
+
+  h3 {
+    @apply text-xl font-normal text-left uppercase pb-4;
+
+    @screen md {
+      @apply text-3xl pb-8;
+    }
+  }
+
+  p {
+    @apply text-base font-normal text-center text-gray-600 pb-4;
+
+    @screen md {
+      @apply text-xl pb-8;
     }
   }
 }

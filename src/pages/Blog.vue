@@ -9,7 +9,7 @@
           Get inspired
         </p>
       </div>
-      <div class="px-2">
+      <div class="content">
         <div class="flex flex-wrap -mx-2">
           <div
             class="w-full md:w-1/3 mb-8 px-2"
