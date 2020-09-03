@@ -54,7 +54,7 @@
               </button>
             </a>
           </div>
-          <img
+          <g-image
             class="object-contain w-full md:w-3/5 md:px-8 xl:px-16"
             src="https://images.unsplash.com/photo-1584907797015-7554cd315667"
             alt="Hero image"
@@ -70,7 +70,7 @@
           <div
             class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-4 bg-gray-200"
           >
-            <img
+            <g-image
               class="w-full"
               src="@images/connect-your-repository.webp"
               alt="Connect your repository"
@@ -89,7 +89,7 @@
           <div
             class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-4 bg-gray-200"
           >
-            <img
+            <g-image
               class="w-full"
               src="@images/setup-your-project.webp"
               alt="Setup your project"
@@ -107,7 +107,7 @@
           <div
             class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-4 bg-gray-200"
           >
-            <img
+            <g-image
               class="w-full"
               src="@images/ship-to-IONOS.webp"
               alt="Ship to IONOS"
