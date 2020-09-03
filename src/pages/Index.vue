@@ -32,7 +32,7 @@
             </div>
             <a
               class="self-center md:self-start"
-              href="https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/gatsby-starter-default"
+              href="https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/buildwith-ionos-starter"
               rel="noopener"
               target="_blank"
             >
