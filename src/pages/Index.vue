@@ -22,7 +22,7 @@
               Just
               <a href="https://git-scm.com/docs/git-push">git push</a> to ship
               to
-              <a href="https://www.ionos.com/" rel="nofollow" target="_blank"
+              <a href="https://www.ionos.com/" rel="noopener" target="_blank"
                 >IONOS</a
               >
             </h1>
@@ -33,7 +33,7 @@
             <a
               class="self-center md:self-start"
               href="https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/gatsby-starter-default"
-              rel="nofollow"
+              rel="noopener"
               target="_blank"
             >
               <button
@@ -57,6 +57,7 @@
           <img
             class="object-contain w-full md:w-3/5 md:px-8 xl:px-16"
             src="https://images.unsplash.com/photo-1584907797015-7554cd315667"
+            alt="Hero image"
           />
         </div>
 
@@ -263,14 +264,14 @@
         <!-- supported frameworks -->
         <h2>
           Works with all popular
-          <a href="https://jamstack.org/" rel="nofollow" target="_blank"
+          <a href="https://jamstack.org/" rel="noopener" target="_blank"
             >Jamstack</a
           >
           frameworks
         </h2>
 
         <div class="flex flex-grow-0 flex-wrap justify-center pb-4 md:pb-8">
-          <a href="https://nextjs.org/" rel="nofollow" target="_blank">
+          <a href="https://nextjs.org/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -278,6 +279,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>Next.js</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-nextjs"
@@ -285,7 +287,7 @@
               </svg>
             </div>
           </a>
-          <a href="https://nuxtjs.org/" rel="nofollow" target="_blank">
+          <a href="https://nuxtjs.org/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -293,6 +295,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>Nuxt.js</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-nuxtjs"
@@ -300,7 +303,7 @@
               </svg>
             </div>
           </a>
-          <a href="https://gohugo.io/" rel="nofollow" target="_blank">
+          <a href="https://gohugo.io/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -308,6 +311,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>Hugo</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-gohugo"
@@ -315,7 +319,7 @@
               </svg>
             </div>
           </a>
-          <a href="https://www.gatsbyjs.com/" rel="nofollow" target="_blank">
+          <a href="https://www.gatsbyjs.com/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -323,6 +327,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>Gatsbyjs</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-gatsbyjs"
@@ -330,26 +335,25 @@
               </svg>
             </div>
           </a>
-          <a
-            href="https://github.com/topics/static-site-generator"
-            rel="nofollow"
-            target="_blank"
+          <div
+            class="flex items-stretch box-content bg-black rounded-lg shadow-lg h-8 w-8 md:h-16 md:w-16 m-2 p-4"
           >
-            <div
-              class="flex items-stretch box-content bg-black rounded-lg shadow-lg h-8 w-8 md:h-16 md:w-16 m-2 p-4"
+            <b class="text-white text-center text-sm md:text-2xl m-auto">
+              <a
+                href="https://github.com/topics/static-site-generator"
+                rel="noopener"
+                target="_blank"
+                >More
+              </a></b
             >
-              <b class="text-white text-center text-sm md:text-2xl m-auto"
-                >More</b
-              >
-            </div>
-          </a>
+          </div>
         </div>
 
         <h2>
           (Coming soon) LAMP stack support
         </h2>
         <div class="flex flex-grow-0 flex-wrap justify-center pb-4 md:pb-8">
-          <a href="https://www.php.net/" rel="nofollow" target="_blank">
+          <a href="https://www.php.net/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -357,6 +361,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>PHP</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-php"
@@ -364,7 +369,7 @@
               </svg>
             </div>
           </a>
-          <a href="https://www.python.org/" rel="nofollow" target="_blank">
+          <a href="https://www.python.org/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -372,6 +377,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>Python</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-python"
@@ -379,7 +385,7 @@
               </svg>
             </div>
           </a>
-          <a href="https://www.mysql.com/" rel="nofollow" target="_blank">
+          <a href="https://www.mysql.com/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
                 class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -387,6 +393,7 @@
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>MySQL</title>
                 <use
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xlink:href="/icons.svg#icon-mysql"

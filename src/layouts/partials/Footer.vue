@@ -7,7 +7,7 @@
         © {{ new Date().getFullYear() }} - Powered by
         <a
           href="https://buildwith.ionos.com"
-          rel="nofollow"
+          rel="noopener"
           target="_blank"
         >
           Builtwith IONOS</a
@@ -23,6 +23,7 @@
             :href="element.link"
             class="text-gray-500 hover:text-pink-500"
             :aria-label="element.icon"
+            rel="noopener"
             target="_blank"
           >
             <svg
