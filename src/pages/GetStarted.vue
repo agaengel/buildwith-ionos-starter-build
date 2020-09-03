@@ -22,7 +22,7 @@
         <h2>Step 1: Start your first project</h2>
         <g-image
           class="w-full"
-          src="@images/setup-step1.png"
+          src="@images/setup-step1.webp"
           alt="Dashboard view"
         />
         <p>
@@ -34,7 +34,7 @@
         <p>Clicking <b>Start first project</b> brings you to this screen:</p>
         <g-image
           class="w-full"
-          src="@images/setup-step2.png"
+          src="@images/setup-step2.webp"
           alt="Connect to GitHub view"
         />
         <p>
@@ -44,7 +44,7 @@
         <h2>Step 3: Authorize Buildwith IONOS</h2>
         <g-image
           class="w-full"
-          src="@images/setup-step3.png"
+          src="@images/setup-step3.webp"
           alt="Authorize Buildwith IONOS view"
         />
         <p>
@@ -56,7 +56,7 @@
         <h2>Step 4: Configure your project</h2>
         <g-image
           class="w-full"
-          src="@images/setup-step4.png"
+          src="@images/setup-step4.webp"
           alt="Configure your project view"
         />
         <p>
@@ -72,7 +72,7 @@
         </h2>
         <g-image
           class="w-full"
-          src="@images/setup-step5-1.png"
+          src="@images/setup-step5-1.webp"
           alt="Initialize project view"
         />
         <p>
@@ -81,7 +81,7 @@
         </p>
         <g-image
           class="w-full"
-          src="@images/setup-step5-2.png"
+          src="@images/setup-step5-2.webp"
           alt="Congrats view"
         />
         <p>
@@ -91,7 +91,7 @@
         </p>
         <g-image
           class="w-full"
-          src="@images/setup-step5-3.png"
+          src="@images/setup-step5-3.webp"
           alt="Project details view"
         />
         <p>
@@ -109,7 +109,7 @@
         </p>
         <g-image
           class="w-full"
-          src="@images/setup-step6.png"
+          src="@images/setup-step6.webp"
           alt="Resulting web project"
         />
         <p>

@@ -72,7 +72,7 @@
           >
             <img
               class="w-full"
-              src="@images/connect-your-repository.png"
+              src="@images/connect-your-repository.webp"
               alt="Connect your repository"
             />
             <div class="py-4 px-6">
@@ -91,7 +91,7 @@
           >
             <img
               class="w-full"
-              src="@images/setup-your-project.png"
+              src="@images/setup-your-project.webp"
               alt="Setup your project"
             />
             <div class="py-4 px-6">
@@ -109,7 +109,7 @@
           >
             <img
               class="w-full"
-              src="@images/ship-to-IONOS.png"
+              src="@images/ship-to-IONOS.webp"
               alt="Ship to IONOS"
             />
             <!-- src="https://images.unsplash.com/photo-1592063648619-7e520034f357" -->
