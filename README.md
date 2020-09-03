@@ -1,8 +1,5 @@
 # Buildwith IONOS Starter
 
-## Demo
-todo
-
 ## Features
 
 * Gridsome
@@ -16,8 +13,12 @@ todo
 
 ### 1. Install Gridsome CLI tool if you don't have
 
-`yarn install --global @gridsome/cli`
+`yarn install --global @gridsome/cli --frozen-lockfile`
 
 ### 2. Create project
 
-todo
+`yarn deploy`
+
+## Ship to IONOS
+
+[![Ship to IONOS](static/ship-to-ionos.webp)](https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/gridsome-starter-default)
