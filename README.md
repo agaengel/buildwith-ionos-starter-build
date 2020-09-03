@@ -1,8 +1,5 @@
 # Buildwith IONOS Starter
 
-## Demo
-todo
-
 ## Features
 
 * Gridsome
