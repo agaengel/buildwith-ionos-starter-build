@@ -31,6 +31,7 @@
               Try yourself by click on <b>Ship to IONOS</b>.
             </div>
             <a
+              class="self-center md:self-start"
               href="https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/gatsby-starter-default"
               rel="nofollow"
               target="_blank"
