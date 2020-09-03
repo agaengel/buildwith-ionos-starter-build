@@ -7,7 +7,7 @@
           class="text-5xl text-3xl md:text-center md:text-5xl lg:text-6xl"
           v-html="$page.blog.title"
         ></h1>
-        <div class="text-sm md:text-base text-gray-600 flex justify-center">
+        <div class="text-sm md:text-base text-gray-800 flex justify-center">
           <p class="author">{{ $page.blog.author.name }}</p>
           <p class="px-2">—</p>
           <time :datetime="$page.blog.datetime">{{
@@ -27,7 +27,7 @@
             :src="$page.blog.image"
             :alt="$page.blog.image_caption"
           />
-          <figcaption class="text-center text-sm italic text-gray-600 mt-4">
+          <figcaption class="text-center text-sm italic text-gray-800 mt-4">
             {{ $page.blog.image_caption }}
           </figcaption>
         </figure>

@@ -38,7 +38,7 @@
                     >{{ entry.node.title }}</g-link
                   >
                 </h2>
-                <div class="text-base text-gray-600 md:flex mb-4">
+                <div class="text-base text-gray-800 md:flex mb-4">
                   <div>{{ entry.node.author.name }}</div>
                   <div class="hidden md:block px-2">—</div>
                   <time :datetime="entry.node.datetime">{{

@@ -23,6 +23,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step1.webp"
+          fit="contain"
           alt="Dashboard view"
         />
         <p>
@@ -35,6 +36,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step2.webp"
+          fit="contain"
           alt="Connect to GitHub view"
         />
         <p>
@@ -45,6 +47,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step3.webp"
+          fit="contain"
           alt="Authorize Buildwith IONOS view"
         />
         <p>
@@ -57,6 +60,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step4.webp"
+          fit="contain"
           alt="Configure your project view"
         />
         <p>
@@ -73,6 +77,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step5-1.webp"
+          fit="contain"
           alt="Initialize project view"
         />
         <p>
@@ -82,6 +87,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step5-2.webp"
+          fit="contain"
           alt="Congrats view"
         />
         <p>
@@ -92,6 +98,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step5-3.webp"
+          fit="contain"
           alt="Project details view"
         />
         <p>
@@ -110,6 +117,7 @@
         <g-image
           class="w-full"
           src="@images/setup-step6.webp"
+          fit="contain"
           alt="Resulting web project"
         />
         <p>

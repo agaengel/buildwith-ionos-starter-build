@@ -13,7 +13,7 @@ strong {
   }
 
   p {
-    @apply text-base text-gray-600 font-light uppercase border-b border-gray-600 pb-4 mb-8 mx-8;
+    @apply text-base text-gray-800 font-light uppercase border-b border-gray-800 pb-4 mb-8 mx-8;
 
     @screen md {
       @apply text-xl pb-8 mb-24;
@@ -41,7 +41,7 @@ strong {
   }
 
   p {
-    @apply text-base font-normal text-center text-gray-600 pb-4;
+    @apply text-base font-normal text-center text-gray-800 pb-4;
 
     @screen md {
       @apply text-xl pb-8;

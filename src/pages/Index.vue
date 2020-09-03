@@ -17,7 +17,7 @@
         >
           <div class="flex flex-col w-full xl:w-2/5">
             <h1
-              class="text-2xl md:text-5xl text-blue-600 font-bold text-left my-4"
+              class="text-2xl md:text-5xl text-blue-800 font-bold text-left my-4"
             >
               Just
               <a href="https://git-scm.com/docs/git-push">git push</a> to ship
@@ -54,9 +54,11 @@
               </button>
             </a>
           </div>
+          <!-- source https://images.unsplash.com/photo-1584907797015-7554cd315667 -->
           <g-image
             class="object-contain w-full md:w-3/5 md:px-8 xl:px-16"
-            src="https://images.unsplash.com/photo-1584907797015-7554cd315667"
+            src="@images/hero.webp"
+            fit="contain"
             alt="Hero image"
           />
         </div>
@@ -73,13 +75,14 @@
             <g-image
               class="w-full"
               src="@images/connect-your-repository.webp"
+              fit="contain"
               alt="Connect your repository"
             />
             <div class="py-4 px-6">
               <div class="text-xl font-medium mb-2">
                 1. Connect your repository
               </div>
-              <div class="text-base md:text-xl text-gray-600">
+              <div class="text-base md:text-xl text-gray-800">
                 Just
                 <a href="https://git-scm.com/docs/git-push">git push</a> to ship
                 to <a href="https://www.ionos.com/">IONOS</a>.
@@ -92,13 +95,14 @@
             <g-image
               class="w-full"
               src="@images/setup-your-project.webp"
+              fit="contain"
               alt="Setup your project"
             />
             <div class="py-4 px-6">
               <div class="text-xl md:text-2xl font-medium mb-2">
                 2. Setup your project
               </div>
-              <div class="text-base md:text-xl text-gray-600">
+              <div class="text-base md:text-xl text-gray-800">
                 IONOS detects by default a bunch of popular frameworks and is
                 totally customizable at the same time.
               </div>
@@ -110,14 +114,14 @@
             <g-image
               class="w-full"
               src="@images/ship-to-IONOS.webp"
+              fit="contain"
               alt="Ship to IONOS"
             />
-            <!-- src="https://images.unsplash.com/photo-1592063648619-7e520034f357" -->
             <div class="py-4 px-6">
               <div class="text-xl md:text-2xl font-medium mb-2">
                 3. Ship to IONOS
               </div>
-              <div class="text-base md:text-xl text-gray-600">
+              <div class="text-base md:text-xl text-gray-800">
                 Publishing is seamless with instant cache invalidation and
                 atomic deploys.
               </div>
@@ -140,7 +144,7 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-600"
+                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-800"
                   >
                     <svg
                       class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -159,7 +163,7 @@
                   <h4 class="text-xl font-medium">
                     Buildwith IONOS makes it simple
                   </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-600">
+                  <div class="mt-2 text-xl leading-6 text-gray-800">
                     Publish modern web projects right from your git repository.
                     Use your favorite framework. You don't need to be an expert
                     to create and ship a feature-rich web project with IONOS.
@@ -171,7 +175,7 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-600"
+                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-800"
                   >
                     <svg
                       class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -190,7 +194,7 @@
                   <h4 class="text-xl font-medium">
                     Automate your work
                   </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-600">
+                  <div class="mt-2 text-xl leading-6 text-gray-800">
                     Automate your next web project from the beginning. Don't
                     repeat yourself and rely on proven build steps and produce
                     snapshots in short cycles with each git push. Things will go
@@ -203,7 +207,7 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-600"
+                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-800"
                   >
                     <svg
                       class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -222,7 +226,7 @@
                   <h4 class="text-xl font-medium">
                     Preview your changes
                   </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-600">
+                  <div class="mt-2 text-xl leading-6 text-gray-800">
                     Generate a full preview of your web project with every git
                     push. Apply atomic switch to live.
                   </div>
@@ -233,7 +237,7 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-600"
+                    class="flex items-center justify-center rounded-md m-2 p-2 bg-blue-800"
                   >
                     <svg
                       class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -252,7 +256,7 @@
                   <h4 class="text-xl font-medium">
                     Ship directly to the edge
                   </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-600">
+                  <div class="mt-2 text-xl leading-6 text-gray-800">
                     Always fast. Always online. Always a hit.
                   </div>
                 </div>
