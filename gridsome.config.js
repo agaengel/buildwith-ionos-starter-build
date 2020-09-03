@@ -1,3 +1,29 @@
+const options = {
+  default: {
+    manifestOptions: {
+      short_name: "Buildwith IONOS",
+      description: "Get your web project live in seconds",
+      display: "standalone",
+      background_color: "#f7fafc",
+      theme_color: "#003D8F",
+      gcm_sender_id: undefined,
+      start_url: "/",
+      categories: ["business", "productivity"],
+      lang: "en-US",
+      dir: "auto",
+    },
+    appleMobileWebAppStatusBarStyle: "default",
+    manifestPath: "manifest.json",
+    icon: { appleMaskIcon: { url: "./favicon.png" } },
+    msTileColor: "#f7fafc",
+    workboxOptions: {
+      cacheId: "buildwith-pwa",
+      globPatterns: ["assets/@(js|css)/*", "index.html"],
+      skipWaiting: true,
+    },
+  }
+};
+
 module.exports = {
   siteName: "Buildwith IONOS",
   plugins: [
@@ -63,6 +89,10 @@ module.exports = {
         ],
       },
     },
+    {
+      use: "@allanchain/gridsome-plugin-pwa",
+      options: options["default"],
+    },
   ],
   templates: {
     Blog: [
@@ -86,7 +116,5 @@ module.exports = {
   },
   chainWebpack: (config) => {
     config.resolve.alias.set("@images", "@/assets/images");
-    config.resolve.alias.set("@modules", "@/resources/js/modules");
-    config.resolve.alias.set("@utilities", "@/resources/js/utilities");
   },
 };
