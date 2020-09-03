@@ -159,7 +159,7 @@
                     </svg>
                   </div>
                 </div>
-                <div class="ml-4">
+                <div class="ml-4 md:mb-8">
                   <h4 class="text-xl font-medium">
                     Buildwith IONOS makes it simple
                   </h4>
@@ -190,7 +190,7 @@
                     </svg>
                   </div>
                 </div>
-                <div class="ml-4">
+                <div class="ml-4 md:mb-8">
                   <h4 class="text-xl font-medium">
                     Automate your work
                   </h4>
@@ -222,7 +222,7 @@
                     </svg>
                   </div>
                 </div>
-                <div class="ml-4">
+                <div class="ml-4 md:mb-8">
                   <h4 class="text-xl font-medium">
                     Preview your changes
                   </h4>
@@ -252,7 +252,7 @@
                     </svg>
                   </div>
                 </div>
-                <div class="ml-4">
+                <div class="ml-4 md:mb-8">
                   <h4 class="text-xl font-medium">
                     Ship directly to the edge
                   </h4>
