@@ -13,7 +13,7 @@
       <div class="content">
         <!-- hero -->
         <div
-          class="flex flex-wrap lg:flex-no-wrap flex-col md:flex-row px-8 pb-4 md:pb-8"
+          class="flex flex-wrap lg:flex-no-wrap flex-col md:flex-row px-8 px-4 pb-8 md:pb-16"
         >
           <div class="flex flex-col w-full xl:w-2/5">
             <h1
@@ -68,7 +68,7 @@
           Get your next web project live in seconds
         </h2>
 
-        <div class="flex flex-wrap lg:flex-no-wrap justify-center pb-4 md:pb-8">
+        <div class="flex flex-wrap lg:flex-no-wrap justify-center px-4 pb-8 md:pb-16">
           <div
             class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-4 bg-gray-200"
           >
@@ -138,7 +138,7 @@
           Setting up your next project with Buildwith IONOS brings up essential
           features just from the beginning.
         </p>
-        <div class="px-4 pb-4 md:pb-8">
+        <div class="px-4 pb-8 md:pb-16">
           <ul class="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
             <li>
               <div class="flex">
@@ -160,10 +160,10 @@
                   </div>
                 </div>
                 <div class="ml-4 md:mb-8">
-                  <h4 class="text-xl font-medium">
+                  <h3>
                     Buildwith IONOS makes it simple
-                  </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-800">
+                  </h3>
+                  <div class="mt-2 text-base leading-6 text-gray-800">
                     Publish modern web projects right from your git repository.
                     Use your favorite framework. You don't need to be an expert
                     to create and ship a feature-rich web project with IONOS.
@@ -191,10 +191,10 @@
                   </div>
                 </div>
                 <div class="ml-4 md:mb-8">
-                  <h4 class="text-xl font-medium">
+                  <h3>
                     Automate your work
-                  </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-800">
+                  </h3>
+                  <div class="mt-2 text-base leading-6 text-gray-800">
                     Automate your next web project from the beginning. Don't
                     repeat yourself and rely on proven build steps and produce
                     snapshots in short cycles with each git push. Things will go
@@ -223,10 +223,10 @@
                   </div>
                 </div>
                 <div class="ml-4 md:mb-8">
-                  <h4 class="text-xl font-medium">
+                  <h3>
                     Preview your changes
-                  </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-800">
+                  </h3>
+                  <div class="mt-2 text-base leading-6 text-gray-800">
                     Generate a full preview of your web project with every git
                     push. Apply atomic switch to live.
                   </div>
@@ -253,10 +253,10 @@
                   </div>
                 </div>
                 <div class="ml-4 md:mb-8">
-                  <h4 class="text-xl font-medium">
+                  <h3>
                     Ship directly to the edge
-                  </h4>
-                  <div class="mt-2 text-xl leading-6 text-gray-800">
+                  </h3>
+                  <div class="mt-2 text-base leading-6 text-gray-800">
                     Always fast. Always online. Always a hit.
                   </div>
                 </div>
@@ -274,7 +274,7 @@
           frameworks
         </h2>
 
-        <div class="flex flex-grow-0 flex-wrap justify-center pb-4 md:pb-8">
+        <div class="flex flex-grow-0 flex-wrap justify-center px-4 pb-8 md:pb-16">
           <a href="https://nextjs.org/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
@@ -342,8 +342,9 @@
           <div
             class="flex items-stretch box-content bg-black rounded-lg shadow-lg h-8 w-8 md:h-16 md:w-16 m-2 p-4"
           >
-            <b class="text-white text-center text-sm md:text-2xl m-auto">
+            <b class="text-center text-sm md:text-2xl m-auto">
               <a
+                class="text-white hover:text-white"
                 href="https://github.com/topics/static-site-generator"
                 rel="noopener"
                 target="_blank"
@@ -356,7 +357,7 @@
         <h2>
           (Coming soon) LAMP stack support
         </h2>
-        <div class="flex flex-grow-0 flex-wrap justify-center pb-4 md:pb-8">
+        <div class="flex flex-grow-0 flex-wrap justify-center px-4 pb-8 md:pb-16">
           <a href="https://www.php.net/" rel="noopener" target="_blank">
             <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
               <svg
