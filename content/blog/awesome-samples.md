@@ -1,8 +1,8 @@
 ---
-title: Famous samples
+title: Awesome samples
 tags: buildwith, samples
 category: Buildwith IONOS
-excerpt: Famous samples shipped to IONOS
+excerpt: Awesome samples shipped to IONOS
 created: 2020-09-08
 image: https://images.unsplash.com/photo-1501349800519-48093d60bde0
 image_caption: Photo by Kelli Tungay on Unsplash
