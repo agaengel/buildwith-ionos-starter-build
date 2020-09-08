@@ -21,7 +21,7 @@ const options = {
       globPatterns: ["assets/@(js|css)/*", "index.html"],
       skipWaiting: true,
     },
-  }
+  },
 };
 
 module.exports = {
@@ -113,6 +113,12 @@ module.exports = {
         component: "./src/templates/Tag.vue",
       },
     ],
+  },
+  transformers: {
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+    },
   },
   chainWebpack: (config) => {
     config.resolve.alias.set("@images", "@/assets/images");
