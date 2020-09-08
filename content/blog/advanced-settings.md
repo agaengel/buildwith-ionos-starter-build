@@ -1,6 +1,6 @@
 ---
 title: Advanced Settings
-tags: buildwith
+tags: buildwith, tool
 category: Buildwith IONOS
 excerpt: Using advanced settings in Buildwith IONOS
 created: 2020-08-25
