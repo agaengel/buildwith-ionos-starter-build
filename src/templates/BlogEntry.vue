@@ -33,8 +33,7 @@
         </figure>
       </div>
       <!-- content -->
-      <div class="content pb-12 px-16">
-        <p v-html="$page.blog.excerpt"></p>
+      <div class="markdown pb-12 px-16">
         <div v-html="$page.blog.content"></div>
       </div>
       <!-- tag cloud -->
