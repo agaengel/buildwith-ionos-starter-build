@@ -7,7 +7,7 @@ import "~/resources/scss/main.scss";
 
 export default function(Vue, { router, head, isClient }) {
   // register on dev for debugging too
-  if (isClient) require("./registerServiceWorker");
+  //if (isClient) require("./registerServiceWorker");
   // set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   // add attributes to HTML tag
