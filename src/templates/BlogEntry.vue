@@ -1,39 +1,28 @@
 <template>
   <Layout>
     <section class="container mx-auto">
-      <!-- header -->
-      <div class="pb-12">
-        <h1
-          class="text-5xl text-3xl md:text-center md:text-5xl lg:text-6xl"
-          v-html="$page.blog.title"
-        ></h1>
-        <div class="text-sm md:text-base text-gray-800 flex justify-center">
-          <p class="author">{{ $page.blog.author.name }}</p>
-          <p class="px-2">—</p>
-          <time :datetime="$page.blog.datetime">{{
-            $page.blog.humanTime
-          }}</time>
-          <p class="px-2">—</p>
-          <p class="category">
-            Posted in
-            <g-link :to="$page.blog.category.path">{{
-              $page.blog.category.title
-            }}</g-link>
-          </p>
-        </div>
-        <figure class="mx-10 mt-10">
-          <g-image
-            class="object-cover h-64 w-full"
-            :src="$page.blog.image"
-            :alt="$page.blog.image_caption"
-          />
-          <figcaption class="text-center text-sm italic text-gray-800 mt-4">
-            {{ $page.blog.image_caption }}
-          </figcaption>
-        </figure>
+      <!-- title -->
+      <h2 v-html="$page.blog.title"></h2>
+      <!-- header image -->
+      <figure class="pb-8 md:pb-16">
+        <g-image
+          class="object-cover h-24 md:h-48 w-full pb-0 md:pb-2"
+          :src="$page.blog.image"
+          :alt="$page.blog.image_caption"
+        />
+        <figcaption class="text-xs md:text-sm text-center italic">
+          {{ $page.blog.image_caption }}
+        </figcaption>
+      </figure>
+      <!-- blog post info -->
+      <div class="text-sm md:text-base italic pb-4 md:pb-8">
+        Posted by {{ $page.blog.author.name }} on {{ $page.blog.humanTime }} in
+        <g-link :to="$page.blog.category.path">{{
+          $page.blog.category.title
+        }}</g-link>
       </div>
       <!-- content -->
-      <div class="markdown pb-12 px-16">
+      <div class="markdown pb-12">
         <div v-html="$page.blog.content"></div>
       </div>
       <!-- tag cloud -->
