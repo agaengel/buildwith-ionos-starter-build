@@ -262,14 +262,14 @@
       </div>
 
       <!-- supported frameworks -->
-      <h2>
+      <h4>
         Works with all popular
         <a href="https://jamstack.org/" rel="noopener" target="_blank"
           >Jamstack</a
         >
         frameworks
-      </h2>
-
+      </h4>
+      <!-- listing with icons -->
       <div class="flex flex-grow-0 flex-wrap justify-center px-4 pb-8 md:pb-16">
         <a href="https://nextjs.org/" rel="noopener" target="_blank">
           <div class="m-2 p-4 bg-black rounded-lg shadow-lg">
@@ -349,10 +349,11 @@
           >
         </div>
       </div>
-
-      <h2>
+      <!-- coming soon announcement -->
+      <h4>
         (Coming soon) LAMP stack support
-      </h2>
+      </h4>
+      <!-- listing with icons -->
       <div class="flex flex-grow-0 flex-wrap justify-center px-4 pb-8 md:pb-16">
         <a href="https://www.php.net/" rel="noopener" target="_blank">
           <div class="m-2 p-4 bg-black rounded-lg shadow-lg">

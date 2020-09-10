@@ -14,6 +14,14 @@ h3 {
   }
 }
 
+h4 {
+  @apply text-base font-normal text-center uppercase pb-4;
+
+  @screen md {
+    @apply text-2xl pb-8;
+  }
+}
+
 p {
   @apply text-sm font-normal text-left pb-4;
 
