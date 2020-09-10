@@ -5,11 +5,14 @@
       <h2 v-html="$page.blog.title"></h2>
       <!-- header image -->
       <figure class="pb-8 md:pb-16">
-        <g-image
-          class="object-cover h-24 md:h-48 w-full pb-0 md:pb-2"
-          :src="$page.blog.image"
-          :alt="$page.blog.image_caption"
-        />
+        <picture class="block">
+          <source :srcset="$page.blog.image" type="image/webp"/>
+          <source :srcset="$page.blog.image.png" type="image/png"/>
+          <g-image
+            class="object-cover h-24 md:h-48 w-full pb-0 md:pb-2"
+            :src="$page.blog.image"
+            :alt="$page.blog.image_caption"
+        /></picture>
         <figcaption class="text-xs md:text-sm text-center italic">
           {{ $page.blog.image_caption }}
         </figcaption>

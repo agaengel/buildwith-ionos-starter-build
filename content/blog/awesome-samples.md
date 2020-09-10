@@ -15,7 +15,7 @@ author: markus
 
 ## React website
 
-[![Screenshot of https://reactjs.org/](./../../src/assets/images/website-reactjs.webp)](https://reactjs.org/)
+[![Screenshot of https://reactjs.org/](./../../src/assets/images/website-reactjs.webp.png)](https://reactjs.org/)
 
 Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github.com/reactjs/reactjs.org)** to build & deploy this website build with [gatsby](https://www.gatsbyjs.com/) from [GitHub](https://github.com/reactjs/reactjs.org) yourself
 
@@ -25,7 +25,7 @@ Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github
 
 ## nodejs website
 
-[![Screenshot of https://nodejs.org/](./../../src/assets/images/website-nodejs.webp)](https://nodejs.org/)
+[![Screenshot of https://nodejs.org/](./../../src/assets/images/website-nodejs.webp.png)](https://nodejs.org/)
 
 Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github.com/nodejs/nodejs.org)** to build & deploy this website from [GitHub](https://github.com/nodejs/nodejs.org) yourself
 
@@ -35,7 +35,7 @@ Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github
 
 ## Corona Warn-App website
 
-[![Screenshot of https://www.coronawarn.app/](./../../src/assets/images/website-corona-warn-app.webp)](https://www.coronawarn.app/)
+[![Screenshot of https://www.coronawarn.app/](./../../src/assets/images/website-corona-warn-app.webp.png)](https://www.coronawarn.app/)
 
 Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github.com/corona-warn-app/cwa-website)** to build & deploy this website from [GitHub](https://github.com/corona-warn-app/cwa-website) yourself
 

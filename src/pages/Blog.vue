@@ -23,11 +23,14 @@
                 class="block relative overflow-hidden"
                 :to="entry.node.path"
               >
-                <g-image
-                  class="block"
-                  :alt="entry.node.image_caption"
-                  :src="entry.node.image"
-                />
+                <picture class="block">
+                  <source :srcset="entry.node.image" type="image/webp" />
+                  <source :srcset="entry.node.image.png" type="image/png" />
+                  <g-image
+                    :alt="entry.node.image_caption"
+                    :src="entry.node.image"
+                  />
+                </picture>
               </g-link>
               <!-- card content -->
               <div class="p-8">

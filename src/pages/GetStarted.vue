@@ -20,12 +20,15 @@
         </p>
         <p />
         <h2>Step 1: Start your first project</h2>
-        <g-image
-          class="w-full"
-          src="@images/setup-step1.webp"
-          fit="contain"
-          alt="Dashboard view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step1.webp" type="image/webp" />
+          <source srcset="@images/setup-step1.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step1.webp"
+            fit="contain"
+            alt="Screenshot of dashboard"
+          />
+        </picture>
         <p>
           Creating a new site with Buildwith IONOS is simple. Once you've logged
           in for the first time, click the <b>Start first project</b> button
@@ -33,23 +36,29 @@
         </p>
         <h2>Step 2: Connect to GitHub</h2>
         <p>Clicking <b>Start first project</b> brings you to this screen:</p>
-        <g-image
-          class="w-full"
-          src="@images/setup-step2.webp"
-          fit="contain"
-          alt="Connect to GitHub view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step2.webp" type="image/webp" />
+          <source srcset="@images/setup-step2.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step2.webp"
+            fit="contain"
+            alt="Screenshot of GitHub connect"
+          />
+        </picture>
         <p>
           Click the <b>Connect to GitHub</b> button as illustrated in the
           screenshot above.
         </p>
         <h2>Step 3: Authorize Buildwith IONOS</h2>
-        <g-image
-          class="w-full"
-          src="@images/setup-step3.webp"
-          fit="contain"
-          alt="Authorize Buildwith IONOS view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step3.webp" type="image/webp" />
+          <source srcset="@images/setup-step3.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step3.webp"
+            fit="contain"
+            alt="Screenshot of authorization"
+          />
+        </picture>
         <p>
           It's time to allow Buildwith IONOS and GitHub to talk to each other.
           Clicking the Authorize Application button will do just that. Like it
@@ -57,12 +66,15 @@
           access token on our servers.
         </p>
         <h2>Step 4: Configure your project</h2>
-        <g-image
-          class="w-full"
-          src="@images/setup-step4.webp"
-          fit="contain"
-          alt="Configure your project view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step4.webp" type="image/webp" />
+          <source srcset="@images/setup-step4.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step4.webp"
+            fit="contain"
+            alt="Screenshot of project configuration"
+          />
+        </picture>
         <p>
           Take a starter to get familiar with Buildwith IONOS and create your
           first live web project in seconds. For the first roundtrip we skip
@@ -74,33 +86,42 @@
         <h2>
           Step 5: Initialize, Build &amp; Ship your first project to IONOS
         </h2>
-        <g-image
-          class="w-full"
-          src="@images/setup-step5-1.webp"
-          fit="contain"
-          alt="Initialize project view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step5-1.webp" type="image/webp" />
+          <source srcset="@images/setup-step5-1.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step5-1.webp"
+            fit="contain"
+            alt="Screenshot of project initialization"
+          />
+        </picture>
         <p>
           Now, we are starting to setup everything properly for you. Depending
           on the project size this step lasts for longer.
         </p>
-        <g-image
-          class="w-full"
-          src="@images/setup-step5-2.webp"
-          fit="contain"
-          alt="Congrats view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step5-2.webp" type="image/webp" />
+          <source srcset="@images/setup-step5-2.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step5-2.webp"
+            fit="contain"
+            alt="Screenshot of project congrats"
+          />
+        </picture>
         <p>
           Hopefully, everything goes well all the time, you will see a success
           message. Click on <b>View project details</b> to get a detail summary
           of your project.
         </p>
-        <g-image
-          class="w-full"
-          src="@images/setup-step5-3.webp"
-          fit="contain"
-          alt="Project details view"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step5-3.webp" type="image/webp" />
+          <source srcset="@images/setup-step5-3.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step5-3.webp"
+            fit="contain"
+            alt="Screenshot of project details"
+          />
+        </picture>
         <p>
           Now, your workflow with
           <a href="https://github.com/features/actions">GitHub Actions</a>
@@ -114,12 +135,15 @@
           Once the build completes, your site is live! Head to the generated URL
           of your newly published site:
         </p>
-        <g-image
-          class="w-full"
-          src="@images/setup-step6.webp"
-          fit="contain"
-          alt="Resulting web project"
-        />
+        <picture class="w-full">
+          <source srcset="@images/setup-step6.webp" type="image/webp" />
+          <source srcset="@images/setup-step6.webp.png" type="image/png" />
+          <g-image
+            src="@images/setup-step6.webp"
+            fit="contain"
+            alt="Screenshot of resulting web project"
+          />
+        </picture>
         <p>
           Probably not the most outstanding website, but wasn't that easy?
           Taking it a step further you should connect

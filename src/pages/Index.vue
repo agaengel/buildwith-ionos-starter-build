@@ -52,12 +52,11 @@
           </a>
         </div>
         <!-- source https://images.unsplash.com/photo-1584907797015-7554cd315667 -->
-        <g-image
-          class="object-contain w-full md:w-3/5 md:px-8 xl:px-16"
-          src="@images/hero.webp"
-          fit="contain"
-          alt="Hero image"
-        />
+        <picture class="object-contain w-full md:w-3/5 md:px-8 xl:px-16">
+          <source srcset="@images/hero.webp" type="image/webp" />
+          <source srcset="@images/hero.webp.png" type="image/png" />
+          <g-image src="@images/hero.webp" fit="contain" alt="Hero image" />
+        </picture>
       </div>
       <!-- step-by-step description -->
       <h2>
@@ -68,11 +67,16 @@
         <div
           class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-0 md:m-4 bg-gray-200"
         >
-          <picture>
-            <source srcset="@images/connect-your-repository.webp" type="image/webp" />
-            <source srcset="@images/connect-your-repository.jpg" type="image/jpeg" />
+          <picture class="w-full">
+            <source
+              srcset="@images/connect-your-repository.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="@images/connect-your-repository.webp.png"
+              type="image/png"
+            />
             <g-image
-              class="w-full"
               src="@images/connect-your-repository.webp"
               fit="contain"
               alt="Connect your repository"
@@ -92,12 +96,21 @@
         <div
           class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 my-4 md:mx-4 bg-gray-200"
         >
-          <g-image
-            class="w-full"
-            src="@images/setup-your-project.webp"
-            fit="contain"
-            alt="Setup your project"
-          />
+          <picture class="w-full">
+            <source
+              srcset="@images/setup-your-project.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="@images/setup-your-project.webp.png"
+              type="image/png"
+            />
+            <g-image
+              src="@images/setup-your-project.webp"
+              fit="contain"
+              alt="Setup your project"
+            />
+          </picture>
           <div class="py-4 px-6">
             <div class="text-xl md:text-2xl font-medium mb-2">
               2. Setup your project
@@ -111,12 +124,15 @@
         <div
           class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-0 md:m-4 bg-gray-200"
         >
-          <g-image
-            class="w-full"
-            src="@images/ship-to-IONOS.webp"
-            fit="contain"
-            alt="Ship to IONOS"
-          />
+          <picture class="w-full">
+            <source srcset="@images/ship-to-IONOS.webp" type="image/webp" />
+            <source srcset="@images/ship-to-IONOS.webp.png" type="image/png" />
+            <g-image
+              src="@images/ship-to-IONOS.webp"
+              fit="contain"
+              alt="Ship to IONOS"
+            />
+          </picture>
           <div class="py-4 px-6">
             <div class="text-xl md:text-2xl font-medium mb-2">
               3. Ship to IONOS
