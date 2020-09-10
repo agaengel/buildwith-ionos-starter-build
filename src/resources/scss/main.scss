@@ -1,6 +1,7 @@
-/*! purgecss start ignore */
 @tailwind base;
-/*! purgecss end ignore */
+@layer base {
+  @apply text-gray-800;
+}
 
 @import "base/all";
 
