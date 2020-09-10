@@ -1,3 +1,11 @@
+h1 {
+  @apply text-2xl font-medium pb-4;
+
+  @screen md {
+    @apply text-5xl;
+  }
+}
+
 h2 {
   @apply text-xl font-normal text-left uppercase pb-4;
 
@@ -36,16 +44,6 @@ strong {
 }
 
 .subheader {
-  @apply text-left;
-
-  h1 {
-    @apply text-2xl font-medium pb-4;
-
-    @screen md {
-      @apply text-5xl;
-    }
-  }
-
   p {
     @apply text-base font-light text-left uppercase border-b border-gray-800 pb-4 mb-8;
 
