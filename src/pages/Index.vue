@@ -68,12 +68,16 @@
         <div
           class="max-w-sm rounded-lg overflow-hidden shadow-lg px-2 py-4 m-0 md:m-4 bg-gray-200"
         >
-          <g-image
-            class="w-full"
-            src="@images/connect-your-repository.webp"
-            fit="contain"
-            alt="Connect your repository"
-          />
+          <picture>
+            <source srcset="@images/connect-your-repository.webp" type="image/webp" />
+            <source srcset="@images/connect-your-repository.jpg" type="image/jpeg" />
+            <g-image
+              class="w-full"
+              src="@images/connect-your-repository.webp"
+              fit="contain"
+              alt="Connect your repository"
+            />
+          </picture>
           <div class="py-4 px-6">
             <div class="text-xl font-medium mb-2">
               1. Connect your repository
