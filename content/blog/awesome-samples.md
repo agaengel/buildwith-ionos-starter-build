@@ -15,7 +15,7 @@ author: markus
 
 ## React website
 
-[![Screenshot of https://reactjs.org/](./../../src/assets/images/website-reactjs.webp)](https://reactjs.org/)
+[![Screenshot of https://reactjs.org/](./../../src/assets/images/website-reactjs.png)](https://reactjs.org/)
 
 Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github.com/reactjs/reactjs.org)** to build & deploy this website build with [gatsby](https://www.gatsbyjs.com/) from [GitHub](https://github.com/reactjs/reactjs.org) yourself
 
