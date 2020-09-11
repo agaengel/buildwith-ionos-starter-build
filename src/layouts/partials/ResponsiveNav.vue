@@ -19,6 +19,26 @@
             >{{ element.name }}</g-link
           >
         </li>
+        <li class="level-1 mb-4 md:mr-4 md:mb-0">
+          <a
+            class="link block py-2 px-5 text-white text-3xl hover:text-pink-500"
+            href="https://github.com/buildwith-ionos/buildwith-ionos-starter"
+            rel="noopener"
+            target="_blank"
+          >
+            <svg
+              class="fill-current text-white w-8 h-8 mr-2"
+              role="img"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="/icons.svg#icon-github"
+              />
+            </svg>
+          </a>
+        </li>
       </ul>
     </nav>
     <button

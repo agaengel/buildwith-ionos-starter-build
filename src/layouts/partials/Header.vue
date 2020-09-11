@@ -9,9 +9,7 @@
       >{{ $static.metadata.siteName }}</g-link
     >
     <nav id="nav" class="hidden md:flex">
-      <ul
-        class="flex flex-col md:flex-row items-center list-reset text-base"
-      >
+      <ul class="flex flex-col md:flex-row items-center list-reset text-base">
         <li
           class="text-base md:text-xl mb-4 md:mr-4 md:mb-0"
           v-for="element in $static.metadata.menu"
@@ -26,6 +24,23 @@
           >
         </li>
       </ul>
+      <a
+        href="https://github.com/buildwith-ionos/buildwith-ionos-starter"
+        rel="noopener"
+        target="_blank"
+      >
+        <svg
+          class="fill-current text-white w-8 h-8 mr-2"
+          role="img"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xlink:href="/icons.svg#icon-github"
+          />
+        </svg>
+      </a>
     </nav>
   </header>
 </template>
