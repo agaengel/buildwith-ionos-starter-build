@@ -21,4 +21,4 @@
 
 ## Ship to IONOS
 
-[![Ship to IONOS](src/assets/images/ship-to-ionos-button.webp.png)](https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/gridsome-starter-default)
+[![Ship to IONOS](src/assets/images/ship-to-ionos-button.webp.png)](https://buildwith.ionos.com/setup?repo=https://github.com/buildwith-ionos/buildwith-ionos-starter)
