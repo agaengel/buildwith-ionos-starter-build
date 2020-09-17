@@ -13,7 +13,7 @@ author: markus
 
 <br>
 
-## React website
+## React - website
 
 [![Screenshot of https://reactjs.org/](./../../src/assets/images/website-reactjs.webp.png)](https://reactjs.org/)
 
@@ -23,17 +23,17 @@ Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github
 
 <br>
 
-## nodejs website
+## Vue.js - website
 
-[![Screenshot of https://nodejs.org/](./../../src/assets/images/website-nodejs.webp.png)](https://nodejs.org/)
+[![Screenshot of https://vuejs.org/](./../../src/assets/images/website-vuejs.webp.png)](https://vuejs.org/)
 
-Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github.com/nodejs/nodejs.org)** to build & deploy this website from [GitHub](https://github.com/nodejs/nodejs.org) yourself
+Click on **[Ship to IONOS](https://buildwith.ionos.com/setup?repo=https://github.com/vuejs/vuejs.org)** to build & deploy this website from [GitHub](https://github.com/vuejs/vuejs.org) yourself
 
 ---
 
 <br>
 
-## Corona Warn-App website
+## Corona Warn-App - website
 
 [![Screenshot of https://www.coronawarn.app/](./../../src/assets/images/website-corona-warn-app.webp.png)](https://www.coronawarn.app/)
 
