@@ -24,8 +24,7 @@
         </p>
         <h3>Limits</h3>
         <p>
-          You can build max. 25 instances. It doesn't matter if you build 25
-          projects or if you use 25 feature branches of one project.
+          You can build max. 5 projects. You can use up to 25 feature branches for all those projects..
         </p>
         <p>
           Max. quota of one instance is 500 MB for now.
