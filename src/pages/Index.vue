@@ -25,7 +25,7 @@
           </h1>
           <div class="text-xl md:text-3xl text-left font-light mb-8">
             Use Buildwith IONOS to get your next web project live in seconds.
-            Try yourself by click on <b>Ship to IONOS</b>.
+            Try yourself by clicking on <b>Ship to IONOS</b>.
           </div>
           <a
             class="self-center md:self-start pb-8 md:pb-0"
