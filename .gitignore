@@ -1,4 +1,5 @@
 *.log
+.yarn
 .cache
 .DS_Store
 src/.temp

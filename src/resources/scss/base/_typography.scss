@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-  @apply text-xl font-normal text-left uppercase pb-4;
+  @apply text-xl font-normal text-left pb-4;
 
   @screen md {
     @apply text-3xl pb-8;

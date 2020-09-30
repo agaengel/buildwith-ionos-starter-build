@@ -1,3 +1,4 @@
+const {slugify} = require("gridsome/lib/utils");
 const options = {
   default: {
     manifestOptions: {
@@ -28,6 +29,12 @@ module.exports = {
   siteName: "Buildwith IONOS",
   plugins: [
     {
+      use: 'gridsome-plugin-brotli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg', 'json']
+      }
+    },
+    {
       use: "gridsome-plugin-tailwindcss",
       options: {
         tailwindConfig: "./tailwind.config.js",
@@ -56,7 +63,7 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Blog",
-        path: "./content/blog/**/*.md",
+        path: ["./content/blog/**/*.md", "./content/samples/**/*.md"],
         refs: {
           author: "Author",
           tags: {
@@ -65,6 +72,24 @@ module.exports = {
           },
           category: {
             typeName: "Category",
+            create: true,
+          },
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Sample",
+        path: "./content/samples/**/*.md",
+        refs: {
+          author: "Author",
+          tags: {
+            typeName: "SampleTag",
+            create: true,
+          },
+          category: {
+            typeName: "SampleCategory",
             create: true,
           },
         },
@@ -97,14 +122,32 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: "/blog/:title",
-        component: "./src/templates/BlogEntry.vue",
+        path: '/blog/:title',
+        component: './src/templates/BlogEntry.vue',
       },
+      {
+        name: "sample",
+        path: (node) => {
+          return `/sample/${slugify(node.title)}`
+        },
+      }
     ],
     Category: [
       {
         path: "/category/:title",
         component: "./src/templates/Category.vue",
+      },
+    ],
+    SampleTag: [
+      {
+        path: "/sample_tags/:title",
+        component: "./src/templates/SampleTags.vue",
+      },
+    ],
+    Sample: [
+      {
+        path: "/sample/:title",
+        component: "./src/templates/SampleEntry.vue",
       },
     ],
     Tag: [
@@ -118,6 +161,10 @@ module.exports = {
     remark: {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      plugins: [
+        require('./packages/gridsome-plugin-remark-figure'),
+        'gridsome-plugin-remark-prismjs-all'
+          ]
     },
   },
   chainWebpack: (config) => {

@@ -2,7 +2,7 @@
   <div>
     <nav
       id="mobile-nav"
-      class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-purple-900 z-50 md:hidden"
+      class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-blue-600 z-50 md:hidden"
       :class="toggleNav ? 'menu-visible' : ''"
     >
       <ul>
@@ -43,7 +43,7 @@
     </nav>
     <button
       id="mobile-nav-toggle"
-      class="mobile-nav-toggle block fixed h-16 w-full bottom-0 flex items-center justify-center font-bold border-none bg-purple-900 text-white z-50 focus:outline-none md:hidden"
+      class="mobile-nav-toggle block fixed h-16 w-full bottom-0 flex items-center justify-center font-bold border-none bg-blue-600 text-white z-50 focus:outline-none md:hidden"
       :class="toggleNav ? 'menu-toggle-active' : ''"
       aria-expanded="false"
       aria-controls="mobile-nav"

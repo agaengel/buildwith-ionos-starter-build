@@ -7,7 +7,6 @@
       <figure class="pb-8 md:pb-16">
         <picture class="block">
           <source :srcset="$page.blog.image" type="image/webp"/>
-          <source :srcset="$page.blog.image.png" type="image/png"/>
           <g-image
             class="object-cover h-24 md:h-48 w-full pb-0 md:pb-2"
             :src="$page.blog.image"
@@ -20,9 +19,6 @@
       <!-- blog post info -->
       <div class="text-sm md:text-base italic pb-4 md:pb-8">
         Posted by {{ $page.blog.author.name }} on {{ $page.blog.humanTime }} in
-        <g-link :to="$page.blog.category.path">{{
-          $page.blog.category.title
-        }}</g-link>
       </div>
       <!-- content -->
       <div class="markdown pb-12">

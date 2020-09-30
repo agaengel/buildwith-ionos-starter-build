@@ -20,25 +20,23 @@
             <div class="bg-white overflow-hidden rounded-lg shadow-lg flex-1">
               <!-- card header -->
               <g-link
-                class="block relative overflow-hidden"
-                :to="entry.node.path"
+                  class="relative overflow-hidde items-stretch"
+                  :to="entry.node.type==='sample'?entry.node.samplepath:entry.node.path"
               >
-                <picture class="block">
-                  <source :srcset="entry.node.image" type="image/webp" />
-                  <source :srcset="entry.node.image.png" type="image/png" />
-                  <g-image
-                    :alt="entry.node.image_caption"
-                    :src="entry.node.image"
-                  />
-                </picture>
+                  <picture class="flex-1">
+                    <g-image
+                        :alt="entry.node.image_caption"
+                        :src="entry.node.image"
+                    />
+                  </picture>
               </g-link>
               <!-- card content -->
               <div class="p-8">
                 <h2>
                   <g-link
-                    class="block hover:text-pink-500"
-                    :to="entry.node.path"
-                    >{{ entry.node.title }}</g-link
+                      class="block hover:text-pink-500"
+                      :to="entry.node.type==='sample'?entry.node.samplepath:entry.node.path"
+                    >{{ entry.node.type==='sample'?"Sample: ":''}}{{ entry.node.title }}</g-link
                   >
                 </h2>
                 <div class="flex flex-col text-base md:flex mb-4">
@@ -47,12 +45,6 @@
                   <time :datetime="entry.node.datetime">{{
                     entry.node.humanTime
                   }}</time>
-                </div>
-
-                <div
-                  class="inline-block bg-pink-500 px-4 py-2 text-white text-xs font-bold rounded"
-                >
-                  {{ entry.node.category.title }}
                 </div>
               </div>
             </div>
@@ -72,24 +64,27 @@ export default {
 </script>
 
 <page-query>
-  query {
-    allBlog {
-      edges {
-        node {
-          id
-          title
-          path
-          image
-          humanTime : created(format:"Do MMMM YYYY")
-          datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-          author {
-            name
-          }
-          category {
-            title
-          }
+query {
+  allBlog(sortBy: "created") {
+    edges {
+      node {
+        id
+        title
+        samplepath: path(to: "sample")
+        path
+        image(height: 300, width: 423, fit: cover)
+        humanTime: created(format: "Do MMMM YYYY")
+        datetime: created(format: "ddd MMM DD YYYY hh:mm:ss zZ")
+        author {
+          name
         }
+        category {
+          title
+        }
+        type
       }
     }
   }
+}
+
 </page-query>
