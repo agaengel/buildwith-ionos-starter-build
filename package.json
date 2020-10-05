@@ -4,7 +4,8 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "validate_prod": "yarn run build; http-server dist --brotli"
   },
   "dependencies": {
     "@allanchain/gridsome-plugin-pwa": "^0.3.0",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "gridsome-plugin-htaccess": "^0.2.1",
-    "gridsome-plugin-tailwindcss": "^3.0.1"
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "http-server": "^0.12.3"
   }
 }

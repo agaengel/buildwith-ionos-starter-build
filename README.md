@@ -11,13 +11,24 @@
 
 ## Install
 
-### 1. Install Gridsome CLI tool if you don't have
+### 1. Install yarn on your machine
+You find more  information how to do this [here](https://classic.yarnpkg.com/en/docs/install)
 
-`yarn install --global @gridsome/cli --frozen-lockfile`
+### 2. install the dependencies for the project
 
-### 2. Create project
+`yarn install --frozen-lockfile`
 
-`yarn deploy`
+### 3. run the project locally
+
+`yarn develop`
+
+### 4. test the production build in local webserver
+
+`yarn validate_prod`
+
+### 5. build the production version
+
+`yarn build`
 
 ## Ship to IONOS
 
