@@ -162,9 +162,12 @@ module.exports = {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       plugins: [
+        ['gridsome-plugin-remark-codetitle', {
+          className:'your-custom-class-name'
+        }],
         require('./packages/gridsome-plugin-remark-figure'),
         'gridsome-plugin-remark-prismjs-all'
-          ]
+      ]
     },
   },
   chainWebpack: (config) => {

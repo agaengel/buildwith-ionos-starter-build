@@ -4657,6 +4657,13 @@ gridsome-plugin-htaccess@^0.2.1:
   resolved "https://registry.yarnpkg.com/gridsome-plugin-htaccess/-/gridsome-plugin-htaccess-0.2.1.tgz#88900bdc2be831f2a752d2b78abfc6b01d4306d9"
   integrity sha512-EiltAiteabahilz2jhPKeawXKgKYPbqptVD0n7tnl2Vt5oOK0LjyFX/HjuiEEx/fY2RVhx1YuYb1koxN7I13Iw==
 
+gridsome-plugin-remark-codetitle@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-codetitle/-/gridsome-plugin-remark-codetitle-0.2.2.tgz#1c1388bfcbc12764e57b6a73eb4b08838a8f6f2b"
+  integrity sha512-qrDiBJ9OSlO9aHSVHnAQ/sQUGipA4xIpccUXNQmD0i3oJjrjz4EvMRabRzmNOwx0WcZd0n0+7JdtZQEHyWviHQ==
+  dependencies:
+    unist-util-visit "^2.0.0"
+
 gridsome-plugin-remark-prismjs-all@^0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-prismjs-all/-/gridsome-plugin-remark-prismjs-all-0.3.5.tgz#5365bd0b1caa1a0a0360255b80cbfe3e1e5f7179"
@@ -10023,7 +10030,7 @@ unist-util-visit@^1.0.0, unist-util-visit@^1.0.1, unist-util-visit@^1.1.0, unist
   dependencies:
     unist-util-visit-parents "^2.0.0"
 
-unist-util-visit@^2.0.1, unist-util-visit@^2.0.2:
+unist-util-visit@^2.0.0, unist-util-visit@^2.0.1, unist-util-visit@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
   integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==
