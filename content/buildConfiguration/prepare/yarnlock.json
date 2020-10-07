@@ -1,0 +1,7 @@
+{
+  "id": "yarnlock",
+  "commands": [
+    "npm install --global yarn",
+    "yarn install --frozen-lockfile"
+  ]
+}

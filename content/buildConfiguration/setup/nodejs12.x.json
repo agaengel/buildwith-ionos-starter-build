@@ -1,0 +1,11 @@
+{
+  "id": "nodejs12.x",
+  "name": "Setup Node.js 12.x",
+  "action": "actions/setup-node@v1",
+  "properties": [
+    {
+      "key": "node-version",
+      "value": "12.x"
+    }
+  ]
+}

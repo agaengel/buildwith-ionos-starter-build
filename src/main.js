@@ -3,9 +3,6 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 
-//require("gridsome-plugin-remark-prismjs-all/themes/solarized.css");
-require("prismjs/themes/prism-okaidia.css");
-
 import "~/resources/scss/main.scss";
 
 export default function(Vue, { router, head, isClient }) {

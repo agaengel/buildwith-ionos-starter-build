@@ -1,0 +1,5 @@
+{
+  "id": "composer",
+  "name": "Setup composer",
+  "action": "php-actions/composer@v2"
+}

@@ -28,6 +28,7 @@
         href="https://github.com/buildwith-ionos/buildwith-ionos-starter"
         rel="noopener"
         target="_blank"
+        aria-label="Link to source on github for buildwith-ionos-starter"
       >
         <svg
           class="fill-current text-white w-8 h-8 mr-2"

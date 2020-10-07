@@ -1,0 +1,16 @@
+{
+  "id": "yarn",
+  "commands": [
+    "yarn build"
+  ],
+  "environment": [
+    {
+      "key": "SITE_URL",
+      "value": "${{ steps.project.outputs.site-url }}"
+    },
+    {
+      "key": "CI",
+      "value": true
+    }
+  ]
+}

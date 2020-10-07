@@ -9,12 +9,16 @@
       "link": "/get-started/"
     },
     {
+      "name": "Blog",
+      "link": "/blog/"
+    },
+    {
       "name": "Samples",
       "link": "/samples/"
     },
     {
-      "name": "Blog",
-      "link": "/blog/"
+      "name": "Build Configuration",
+      "link": "/build-configuration/"
     },
     {
       "name": "Disclaimer",

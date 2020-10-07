@@ -1,0 +1,11 @@
+{
+  "id": "nodejs10.13.3",
+  "name": "Setup Node.js 10.13.3",
+  "action": "actions/setup-node@v1",
+  "properties": [
+    {
+      "key": "node-version",
+      "value": "10.13.3"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "jigsawtailwind",
+  "setup_ref": ["nodejs10.13.3","composer"],
+  "prepare_ref": "npmci",
+  "prepare_name": "Prepare Project build environment",
+  "build_ref": "npmproduction",
+  "build_name": "Build Jigsaw Tailwind",
+  "dist_folder": "build_production"
+}

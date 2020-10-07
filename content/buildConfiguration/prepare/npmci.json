@@ -1,0 +1,6 @@
+{
+  "id": "npmci",
+  "commands": [
+    "npm ci"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "reactjs",
+  "setup_ref": ["nodejs12.x"],
+  "prepare_ref": "yarnlock",
+  "prepare_name": "Prepare Project build environment",
+  "build_ref": "yarn",
+  "build_name": "Build node project",
+  "dist_folder": "public"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "npmproduction",
+  "commands": [
+    "npm run production"
+  ]
+}
