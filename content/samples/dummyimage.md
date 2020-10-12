@@ -9,7 +9,7 @@ image_caption: Dummyimage
 git_url: https://github.com/buildwith-ionos/dummyimage
 author: alex
 type: sample
-template_ref: helloworld
+template_ref: plain
 ---
 A [php](https://www.php.net/) project that generates  dummy images with configurable resolution color and text inside of the generated image.
 

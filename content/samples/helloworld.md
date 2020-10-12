@@ -9,7 +9,7 @@ image_caption: Reactjs.org
 git_url: https://github.com/buildwith-ionos/build-with-ionos-html-hello-world
 author: alex
 type: sample
-template_ref: helloworld
+template_ref: plain
 ---
 A small project with static content directly in the git repository.
 
