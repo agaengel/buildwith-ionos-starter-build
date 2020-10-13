@@ -15,7 +15,7 @@
       >
         <div class="flex flex-col w-full xl:w-2/5">
           <h1
-            class="text-2xl md:text-5xl text-blue-800 font-bold text-left my-4"
+            class="text-2xl md:text-5xl text-blue-600 font-bold text-left my-4"
           >
             Just
             <a href="https://git-scm.com/docs/git-push">git push</a> to ship to
@@ -160,7 +160,7 @@
             <div class="flex">
               <div class="flex-shrink-0">
                 <div
-                  class="flex items-center justify-center rounded-md p-2 bg-blue-800"
+                  class="flex items-center justify-center rounded-md p-2 bg-blue-600"
                 >
                   <svg
                     class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -191,7 +191,7 @@
             <div class="flex">
               <div class="flex-shrink-0">
                 <div
-                  class="flex items-center justify-center rounded-md p-2 bg-blue-800"
+                  class="flex items-center justify-center rounded-md p-2 bg-blue-600"
                 >
                   <svg
                     class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -223,7 +223,7 @@
             <div class="flex">
               <div class="flex-shrink-0">
                 <div
-                  class="flex items-center justify-center rounded-md p-2 bg-blue-800"
+                  class="flex items-center justify-center rounded-md p-2 bg-blue-600"
                 >
                   <svg
                     class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
@@ -253,7 +253,7 @@
             <div class="flex">
               <div class="flex-shrink-0">
                 <div
-                  class="flex items-center justify-center rounded-md p-2 bg-blue-800"
+                  class="flex items-center justify-center rounded-md p-2 bg-blue-600"
                 >
                   <svg
                     class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
