@@ -25,12 +25,11 @@
           <div>
             <ul class="flex border-t border-gray-100 m-4">
               <li class="mr-2" v-for="sample in samples" :key="sample.node.id">
-                <g-linkation
+                <g-link
                   :to="sample.node.path"
                   class="inline-block border border-pink-300 px-4 py-2 text-pink-500 text-xs font-semibold rounded hover:text-white hover:bg-pink-500 hover:border-pink-500"
                 >{{ sample.node.title }}
-                </g-linkation
-                >
+                </g-link>
               </li>
             </ul>
             <build-config :config="selectedConfig" v-if="selectedConfig"/>
