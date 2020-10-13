@@ -1,5 +1,6 @@
 {
   "id": "jigsawtailwind",
+  "title": "Jigsaw Tailwind",
   "setup_ref": ["nodejs10.13.3","composer"],
   "prepare_ref": "npmci",
   "prepare_name": "Prepare Project build environment",

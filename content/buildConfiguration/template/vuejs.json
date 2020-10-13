@@ -1,5 +1,6 @@
 {
   "id": "vuejs",
+  "title": "VueJs",
   "setup_ref": ["nodejs8.9.0"],
   "prepare_ref": "yarnlock",
   "prepare_name": "Prepare Project build environment",

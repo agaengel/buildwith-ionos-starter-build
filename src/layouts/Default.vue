@@ -3,7 +3,7 @@
     <div class="pb-16 md:pb-0 flex flex-col relative min-h-screen">
       <Header />
       <main
-        class="main justify-center flex flex-1 flex-col mx-10 py-10 lg:py-20"
+        class="main flex flex-1 flex-col mx-10 py-10 lg:py-20"
       >
         <slot />
       </main>

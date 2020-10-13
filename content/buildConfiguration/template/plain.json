@@ -1,4 +1,5 @@
 {
   "id": "plain",
+  "title": "no Build just copy to webspace",
   "dist_folder": "./"
 }

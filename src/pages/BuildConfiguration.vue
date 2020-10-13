@@ -6,11 +6,13 @@
         <p>How Buildwith Ionos handels the build configuration for a project</p>
       </div>
       <div class="content">
-        <h2>Buildwith Ionos uses <a href="https://github.com/features/actions" target="_blank" rel="noopener">Github actions</a> to process the building of projects
+        <h2>Buildwith Ionos uses <a href="https://github.com/features/actions" target="_blank" rel="noopener">Github actions</a> to process the
+          building of projects
           and deploys the
           result to a Webspace.</h2>
         <p>When a new Project is created Buildwith Ionos needs a buildconfiguration to generate the github actions <a
-          href="https://docs.github.com/en/free-pro-team@latest/actions/reference#workflow-syntax" target="_blank" rel="noopener">workflow file</a>.<br>
+          href="https://docs.github.com/en/free-pro-team@latest/actions/reference#workflow-syntax" target="_blank" rel="noopener">workflow
+          file</a>.<br>
           A .ionos.yaml in the git repository will be used if present.<br>
           If no configruation is provided in the repository Buildwith Ionos tries to identify the buildconfiguration.<br>
           When this is not possible you can select a build template suitable for the project.
@@ -27,7 +29,8 @@
             :rows="rowsIonosYaml"/>
         </div>
         <p id="setup" class="-mb-5 mt-5">A SetupStep is a <a
-          href="https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses" target="_blank" rel="noopener">uses
+          href="https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses"
+          target="_blank" rel="noopener">uses
           steps</a> for the github workflow that defines a action.<br> It has the following properties:</p>
         <div>
           <vue-good-table
@@ -35,7 +38,8 @@
             :rows="rowsSetupStep"/>
         </div>
         <p id="prepare" class="-mb-5 mt-5">A PrepareStep is a <a
-          href="https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsrun" target="_blank" rel="noopener">run step</a>
+          href="https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsrun"
+          target="_blank" rel="noopener">run step</a>
           used to prepare the environment e.G. installing the build dependencies. <br>It has the following properties:</p>
         <div>
           <vue-good-table
@@ -43,7 +47,8 @@
             :rows="rowsPrepare"/>
         </div>
         <p id="build" class="-mb-5 mt-5">A BuildStep is a <a
-          href="https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsrun" target="_blank" rel="noopener">run step</a>
+          href="https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsrun"
+          target="_blank" rel="noopener">run step</a>
           used to build the project.<br>It has the following properties:</p>
         <div>
           <vue-good-table
@@ -60,6 +65,13 @@
 
         </p>
       </div>
+    </section>
+    <section class="container mx-auto">
+      <p>
+        Have a Look at the
+        <g-link to="/configurations">Example</g-link>
+        Configurations.
+      </p>
     </section>
   </Layout>
 </template>
