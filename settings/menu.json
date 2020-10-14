@@ -1,24 +1,30 @@
 {
   "menu": [
     {
-      "name": "Welcome",
-      "link": "/"
-    },
-    {
-      "name": "Get Started",
-      "link": "/get-started/"
-    },
-    {
       "name": "Blog",
       "link": "/blog/"
     },
     {
-      "name": "Samples",
-      "link": "/samples/"
+      "name": "Docs",
+      "link": "/docs/",
+      "sub": [
+        {
+          "name":"Getting Started",
+          "link": "/docs"
+        },
+        { "spacer":  true},
+        {
+          "name": "Build Configuration",
+          "link": "/docs/configuration/build-configuration/"
+        }, {
+          "name": "Build Configuration Examples",
+          "link": "/docs/configuration/examples/"
+        }
+      ]
     },
     {
-      "name": "Build Configuration",
-      "link": "/build-configuration/"
+      "name": "Samples",
+      "link": "/samples/"
     },
     {
       "name": "Disclaimer",

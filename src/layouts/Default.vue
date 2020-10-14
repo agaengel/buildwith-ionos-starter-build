@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import Header from "~/layouts/partials/Header.vue";
-import Footer from "~/layouts/partials/Footer.vue";
-import ResponsiveNav from "~/layouts/partials/ResponsiveNav.vue";
+import Header from "./partials/Header.vue";
+import Footer from "./partials/Footer.vue";
+import ResponsiveNav from "./partials/ResponsiveNav.vue";
 
 export default {
   components: {

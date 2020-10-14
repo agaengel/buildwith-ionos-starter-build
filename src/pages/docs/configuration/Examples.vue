@@ -10,7 +10,7 @@
         <div class="grid md:grid-cols-2 gap-4 h-auto">
           <div class="grid">
             <div>
-              <ul v-for="(template, templatekey) in $page.allBuildTemplate.edges" :key="template.node.id" class="list-disc">
+              <ul v-for="(template, templatekey) in $page.allBuildTemplate.edges" :key="template.node.id" class="list-disc cursor-pointer">
                 <li v-on:click="showConfig(templatekey)" >
                   <div v-if="selected == templatekey" class="rounded-lg text-white bg-blue-600 p-2">
                     {{ template.node.title }}
@@ -41,11 +41,11 @@
 </template>
 <script>
 
-import BuildConfig from "../components/BuildConfig";
+import BuildConfig from "../../../components/BuildConfig";
 
 export default {
   metaInfo: {
-    title: "Configurations",
+    title: "Examples",
   },
   data() {
     return {
@@ -62,7 +62,6 @@ export default {
   },
   methods: {
     showConfig: function (templateKey) {
-      console.log(templateKey)
       this.selectedConfig = this.$page.allBuildTemplate.edges[templateKey].node;
       this.samples = this.$page.allBuildTemplate.edges[templateKey].node.belongsTo.edges;
       this.selected = templateKey;

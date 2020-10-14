@@ -13,16 +13,16 @@
         <p>When a new Project is created Buildwith Ionos needs a buildconfiguration to generate the github actions <a
           href="https://docs.github.com/en/free-pro-team@latest/actions/reference#workflow-syntax" target="_blank" rel="noopener">workflow
           file</a>.<br>
-          A .ionos.yaml in the git repository will be used if present.<br>
+          A <span class="font-mono">.ionos.yaml</span> in the git repository will be used if present.<br>
           If no configruation is provided in the repository Buildwith Ionos tries to identify the buildconfiguration.<br>
           When this is not possible you can select a build template suitable for the project.
         </p>
-        <p>The following Information should help you to generate a .ionos.yaml for a repository.</p>
+        <p>The following Information should help you to generate a <span class="font-mono">.ionos.yaml</span> for a repository.</p>
         <p class="-mb-5">
-          The .ionos.yaml has to be in the root of the git repository.<br>
+          The <span class="font-mono">.ionos.yaml</span> has to be in the root of the git repository.<br>
           It defines how to prepare the build environment, build the project and which directory should be copied to the webspace.
         </p>
-        <p class="-mb-5 mt-5">A .ionos.yaml has the following properties:</p>
+        <p class="-mb-5 mt-5">A <span class="font-mono">.ionos.yaml</span> has the following properties:</p>
         <div>
           <vue-good-table
             :columns="columns"
@@ -254,5 +254,7 @@ value
 }
 
 </page-query>
+
+
 
 

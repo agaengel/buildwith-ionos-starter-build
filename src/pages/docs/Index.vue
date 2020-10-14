@@ -18,11 +18,11 @@
           IONOS contract. If you are not already a IONOS user, go ahead and
           <a href="https://www.ionos.com/">sign up</a> a contract.
         </p>
-        <p />
+        <p/>
         <h2>Step 1: Start your first project</h2>
         <picture class="w-full">
-          <source srcset="@images/setup-step1.webp" type="image/webp" />
-          <source srcset="@images/setup-step1.webp.png" type="image/png" />
+          <source srcset="@images/setup-step1.webp" type="image/webp"/>
+          <source srcset="@images/setup-step1.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step1.webp"
             fit="contain"
@@ -37,8 +37,8 @@
         <h2>Step 2: Connect to GitHub</h2>
         <p>Clicking <b>Start first project</b> brings you to this screen:</p>
         <picture class="w-full">
-          <source srcset="@images/setup-step2.webp" type="image/webp" />
-          <source srcset="@images/setup-step2.webp.png" type="image/png" />
+          <source srcset="@images/setup-step2.webp" teype="image/webp"/>
+          <source srcset="@images/setup-step2.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step2.webp"
             fit="contain"
@@ -51,8 +51,8 @@
         </p>
         <h2>Step 3: Authorize Buildwith IONOS</h2>
         <picture class="w-full">
-          <source srcset="@images/setup-step3.webp" type="image/webp" />
-          <source srcset="@images/setup-step3.webp.png" type="image/png" />
+          <source srcset="@images/setup-step3.webp" type="image/webp"/>
+          <source srcset="@images/setup-step3.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step3.webp"
             fit="contain"
@@ -67,8 +67,8 @@
         </p>
         <h2>Step 4: Configure your project</h2>
         <picture class="w-full">
-          <source srcset="@images/setup-step4.webp" type="image/webp" />
-          <source srcset="@images/setup-step4.webp.png" type="image/png" />
+          <source srcset="@images/setup-step4.webp" type="image/webp"/>
+          <source srcset="@images/setup-step4.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step4.webp"
             fit="contain"
@@ -87,8 +87,8 @@
           Step 5: Initialize, Build &amp; Ship your first project to IONOS
         </h2>
         <picture class="w-full">
-          <source srcset="@images/setup-step5-1.webp" type="image/webp" />
-          <source srcset="@images/setup-step5-1.webp.png" type="image/png" />
+          <source srcset="@images/setup-step5-1.webp" type="image/webp"/>
+          <source srcset="@images/setup-step5-1.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step5-1.webp"
             fit="contain"
@@ -100,8 +100,8 @@
           on the project size this step lasts for longer.
         </p>
         <picture class="w-full">
-          <source srcset="@images/setup-step5-2.webp" type="image/webp" />
-          <source srcset="@images/setup-step5-2.webp.png" type="image/png" />
+          <source srcset="@images/setup-step5-2.webp" type="image/webp"/>
+          <source srcset="@images/setup-step5-2.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step5-2.webp"
             fit="contain"
@@ -114,8 +114,8 @@
           of your project.
         </p>
         <picture class="w-full">
-          <source srcset="@images/setup-step5-3.webp" type="image/webp" />
-          <source srcset="@images/setup-step5-3.webp.png" type="image/png" />
+          <source srcset="@images/setup-step5-3.webp" type="image/webp"/>
+          <source srcset="@images/setup-step5-3.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step5-3.webp"
             fit="contain"
@@ -136,8 +136,8 @@
           of your newly published site:
         </p>
         <picture class="w-full">
-          <source srcset="@images/setup-step6.webp" type="image/webp" />
-          <source srcset="@images/setup-step6.webp.png" type="image/png" />
+          <source srcset="@images/setup-step6.webp" type="image/webp"/>
+          <source srcset="@images/setup-step6.webp.png" type="image/png"/>
           <g-image
             src="@images/setup-step6.webp"
             fit="contain"
@@ -162,6 +162,6 @@
 export default {
   metaInfo: {
     title: "Get started",
-  },
-};
+  }
+}
 </script>

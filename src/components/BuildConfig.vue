@@ -59,12 +59,13 @@
 <script>
 export default {
   name: 'BuildConfig',
-  props: {'config':{
-    type: Object,
-
+  props: {
+    'config': {
+      type: Object,
       default: function () {
-        return { }
+        return {}
       }
-    }},
+    }
+  },
 }
 </script>

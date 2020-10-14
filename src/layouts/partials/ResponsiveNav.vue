@@ -2,26 +2,81 @@
   <div>
     <nav
       id="mobile-nav"
-      class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-blue-600 z-50 md:hidden"
+      class="mobile-nav fixed left-0 top-0 pt-2 h-screen w-full overflow-y-auto  bg-blue-600 z-50 md:hidden"
       :class="toggleNav ? 'menu-visible' : ''"
     >
       <ul>
         <li
-          class="level-1 mb-4 md:mr-4 md:mb-0"
+          class="level-1 mb-2 md:mr-4 md:mb-0">
+          <g-link
+            class="link block py-2 px-5 text-white text-2xl hover:text-pink-500 font-bold text-center"
+            to="/"
+            aria-label="Back to home"
+          >{{ $static.metadata.siteName }}
+          </g-link
+          >
+        </li>
+        <li
+          class="level-1 mb-2 md:mr-4 md:mb-0"
           v-for="element in $static.metadata.menu"
           :key="element.name"
         >
           <g-link
+            v-if="element.sub.length == 0"
             :to="element.link"
-            class="link block py-2 px-5 text-white text-3xl hover:text-pink-500"
+            class="link block py-2 px-5 text-white text-2xl hover:text-pink-500"
             active-class="is-active-link"
             exact-active-class="active text-pink-500"
-            >{{ element.name }}</g-link
+          >{{ element.name }}
+          </g-link>
+          <div v-else
+               class="block py-2 px-5 text-white text-2xl  cursor-pointer"
+               @click="setSubmenu(element.link)"
           >
+            <div>{{ element.name }}
+              <svg
+                class="fill-current text-white inline-block h-8 w-8 md:h-16 md:w-16"
+                role="img"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use
+                  v-if="submenu !== element.link"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="/icons.svg#menu-down"
+                />
+                <use
+                  v-else
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="/icons.svg#menu-up"
+                />
+              </svg>
+            </div>
+            <div :class="submenu == element.link ? 'block' : 'hidden'"
+                 class="ml-5"
+            >
+              <div v-for="item in element.sub">
+                <g-link :to="item.link"
+                        class="link block py-2 px-5 text-white text-2xl hover:text-pink-500"
+                        v-if="!item.spacer"
+                        active-class="is-active-link"
+                        exact-active-class="active text-pink-500"
+                >
+                  <div>
+                    {{ item.name }}
+                  </div>
+
+                </g-link>
+                <div v-else>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
-        <li class="level-1 mb-4 md:mr-4 md:mb-0">
+        <li class="level-1 mb-2 md:mr-4 md:mb-0">
           <a
-            class="link block py-2 px-5 text-white text-3xl hover:text-pink-500"
+            class="link block py-2 px-5 text-white text-2xl hover:text-pink-500"
             href="https://github.com/buildwith-ionos/buildwith-ionos-starter"
             rel="noopener"
             target="_blank"
@@ -65,12 +120,18 @@
 
 <static-query>
 query {
-  metadata {
-    menu {
-      name
-      link
-    }
-  }
+metadata {
+siteName
+menu {
+name
+link
+sub{
+name
+link
+spacer
+}
+}
+}
 }
 </static-query>
 
@@ -82,12 +143,35 @@ export default {
   data() {
     return {
       toggleNav: false,
+      submenu: this.$route.path,
     };
+  },
+  computed: {
+    currentPath() {
+      return this.$route.path;
+    },
   },
   methods: {
     toggle() {
       this.toggleNav = !this.toggleNav;
     },
-  },
+    checkActive: function (path) {
+      var that = this;
+      var matched = true;
+      path.split("/").forEach(function (part, index) {
+        if (that.currentPath[index] != part) {
+          matched = false;
+        }
+      });
+      return matched
+    },
+    setSubmenu(value) {
+      if (this.submenu == value) {
+        this.submenu = ''
+      } else {
+        this.submenu = value;
+      }
+    }
+  }
 };
 </script>
