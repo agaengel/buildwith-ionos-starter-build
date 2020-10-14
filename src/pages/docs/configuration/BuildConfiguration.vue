@@ -69,8 +69,8 @@
     <section class="container mx-auto">
       <p>
         Have a Look at the
-        <g-link to="/configurations">Example</g-link>
-        Configurations.
+        <g-link to="/docs/configuration/examples">example</g-link>
+        configurations.
       </p>
     </section>
   </Layout>
