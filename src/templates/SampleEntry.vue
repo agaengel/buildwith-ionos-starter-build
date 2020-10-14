@@ -52,6 +52,7 @@
         </div>
         <div class="grid place-items-center">
           <!-- tag cloud -->
+          <div>Tags:</div>
           <ul class="flex border-t border-gray-100">
             <li class="mr-2" v-for="tag in $page.sample.tags" :key="tag.id">
               <g-link
