@@ -1,0 +1,6 @@
+{
+  "id": "html",
+  "url": "https://html.spec.whatwg.org/",
+  "title": "HTML",
+  "description": "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as <a href=\"https://www.w3.org/TR/CSS2/\" rel=\"noopener\">Cascading Style Sheets</a> (CSS) and scripting languages such as <a href=\"https://www.ecma-international.org/\" target=\"_blank\" rel=\"noopener\">JavaScript</a>."
+}

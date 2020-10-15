@@ -1,0 +1,5 @@
+{
+  "id": "plain",
+  "title": "Plain",
+  "description": "These projects deploy a directory to a webspace without processing of the code in the github action."
+}

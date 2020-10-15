@@ -61,11 +61,21 @@ module.exports = {
         },
         {
             use: "@gridsome/source-filesystem",
+                options: {
+                typeName: "SampleTag",
+                path: "./content/sampleTags/*.json",
+            },
+        },
+        {
+            use: "@gridsome/source-filesystem",
             options: {
                 typeName: "Blog",
                 path: ["./content/blog/**/*.md", "./content/samples/**/*.md"],
                 refs: {
-                    author: "Author",
+                    author: {
+                      typeName: "Author",
+                      create: true,
+                    },
                     tags: {
                         typeName: "Tag",
                         create: true,
@@ -116,7 +126,10 @@ module.exports = {
              typeName: "Sample",
                 path: "./content/samples/**/*.md",
                 refs: {
-                    author: "Author",
+                    author: {
+                      typeName: "Author",
+                      create: true,
+                    },
                     tags: {
                         typeName: "SampleTag",
                         create: true,
