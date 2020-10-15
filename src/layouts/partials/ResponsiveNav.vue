@@ -52,7 +52,7 @@
                 />
               </svg>
             </div>
-            <div :class="submenu == element.link ? 'block' : 'hidden'"
+            <div :class="checkActive(element.link) ? 'block' : 'hidden'"
                  class="ml-5"
             >
               <div v-for="item in element.sub">
@@ -146,11 +146,6 @@ export default {
       submenu: this.$route.path,
     };
   },
-  computed: {
-    currentPath() {
-      return this.$route.path;
-    },
-  },
   methods: {
     toggle() {
       this.toggleNav = !this.toggleNav;
@@ -158,9 +153,9 @@ export default {
     checkActive: function (path) {
       var that = this;
       var matched = true;
-      path.split("/").forEach(function (part, index) {
-        if (that.currentPath[index] != part) {
-          matched = false;
+      path.split("/").slice(0,-1).forEach(function (part, index) {
+        if (that.submenu.split("/")[index] != part) {
+             matched = false;
         }
       });
       return matched
