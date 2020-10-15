@@ -1,7 +1,7 @@
 ---
 title: Hello World
 tags: [plain, html]
-category:
+category: sample
 excerpt: Hello World project deploying static html to a webspace without build step
 created: 2020-10-01T15:00:00Z
 image: ./images/website-hello-world.png

@@ -1,7 +1,7 @@
 ---
 title: Jigsaw - Tailwind
 tags: [jigsaw, tailwind, php, node]
-category:
+category: sample
 excerpt: Demo static site project using jigsaw and tailwind
 created: 2020-10-01T16:00:00Z
 image: ./images/website-jigsaw-tailwind.png

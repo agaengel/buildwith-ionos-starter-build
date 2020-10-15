@@ -1,7 +1,7 @@
 ---
 title: Reactjs.org
 tags: [gatsby,node]
-category:
+category: sample
 excerpt: Reactjs.org page build with Gatsby
 created: 2020-10-06T15:00:00Z
 image: ./images/website-reactjs.png

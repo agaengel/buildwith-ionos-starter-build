@@ -1,7 +1,7 @@
 ---
 title: Vuejs.org
 tags: [vue,node,hexo]
-category:
+category: sample
 excerpt: Vue.js website build with vue
 created: 2020-10-01T13:00:00Z
 image: ./images/website-vuejs.png

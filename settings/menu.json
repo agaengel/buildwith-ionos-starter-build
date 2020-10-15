@@ -1,10 +1,6 @@
 {
   "menu": [
     {
-      "name": "Blog",
-      "link": "/blog/"
-    },
-    {
       "name": "Docs",
       "link": "/docs/",
       "sub": [
